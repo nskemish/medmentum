@@ -18,20 +18,16 @@ Naša misija je da modernizujemo proces primene terapije, smanjujući rizik od g
 - Integracija sa mobilnim aplikacijama za praćenje i prilagođavanje terapije.  
 - Notifikacije i podsetnici za uzimanje lekova.  
 - Sigurnosne funkcije poput zaključavanja i alarmiranja u slučaju nepravilnog korišćenja.
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                /| _ ╱|、  
-               ( •̀ㅅ •́  )
-             ＿ノ ヽ ノ＼＿ 
-            /　`/ ⌒Ｙ⌒ Ｙ　 \
-         ( 　(三ヽ人　 /　 　|
-          |　ﾉ⌒＼ ￣￣ヽ　 ノ
-          ヽ＿＿＿＞､＿＿／
-              ｜( 王 ﾉ〈 
-              /ﾐ`ー―彡\ 
-            |╰          ╯|   
-          |       /\       |
-          |      /  \      |                    
-          |    /     \     |                  
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⡴⣆⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⣼⣿⡗⠀⠀⠀⠀
+⠀⠀⠀⣠⠟⠀⠘⠷⠶⠶⠶⠾⠉⢳⡄⠀⠀⠀⠀⠀⣧⣿⠀⠀⠀⠀⠀
+⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⣤⣤⣤⣤⣿⢿⣄⠀⠀⠀⠀
+⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠙⣷⡴⠶⣦
+⠀⠀⢱⡀⠀⠉⠉⠀⠀⠀⠀⠛⠃⠀⢠⡟⠀⠀⠀⢀⣀⣠⣤⠿⠞⠛⠋
+⣠⠾⠋⠙⣶⣤⣤⣤⣤⣤⣀⣠⣤⣾⣿⠴⠶⠚⠋⠉⠁⠀⠀⠀⠀⠀⠀
+⠛⠒⠛⠉⠉⠀⠀⠀⣴⠟⢃⡴⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
 ## Informacije za članove tima 💻 
 ### Opšte za "MedMentum"
