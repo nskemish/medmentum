@@ -23,7 +23,7 @@ Naša misija je da modernizujemo proces primene terapije, smanjujući rizik od g
 ## **Informacije za članove tima 💻** 
 ### Opšte za "MedMentum"
 
-Sve relevantne informacije vezane za rokove, dodeljene zadatke i odgovornosti možete pronaći u PDF dokumentu pod nazivom "Medmentum_Team_Roadmap.pdf" Molim vas da ga pregledate kako bi svi bili u toku sa svojim obavezama i napretkom projekta.
+Sve relevantne informacije vezane za rokove, dodeljene zadatke i odgovornosti možete pronaći u PDF dokumentu pod nazivom "Medmentum_Roadmap.pdf" Molim vas da ga pregledate kako bi svi bili u toku sa svojim obavezama i napretkom projekta.
 
 ### Instalcija i integracija GitHub sistema
 
