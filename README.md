@@ -17,4 +17,8 @@ Naša misija je da modernizujemo proces primene terapije, smanjujući rizik od g
 - Pametni uređaj sa automatskom primenom lekova.  
 - Integracija sa mobilnim aplikacijama za praćenje i prilagođavanje terapije.  
 - Notifikacije i podsetnici za uzimanje lekova.  
-- Sigurnosne funkcije poput zaključavanja i alarmiranja u slučaju nepravilnog korišćenja.  
+- Sigurnosne funkcije poput zaključavanja i alarmiranja u slučaju nepravilnog korišćenja.
+  
+## Informacije za članove tima 💻 
+
+Sve relevantne informacije vezane za rokove, dodeljene zadatke i odgovornosti možete pronaći u PDF dokumentu pod nazivom "Medmentum_Team_Roadmap.pdf" Molim vas da ga pregledate kako bi svi bili u toku sa svojim obavezama i napretkom projekta.
