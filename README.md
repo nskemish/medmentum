@@ -25,6 +25,7 @@ Naša misija je da modernizujemo proces primene terapije, smanjujući rizik od g
 
 Sve relevantne informacije vezane za rokove, dodeljene zadatke i odgovornosti možete pronaći u PDF dokumentu pod nazivom "Medmentum_Roadmap.pdf" Molim vas da ga pregledate kako bi svi bili u toku sa svojim obavezama i napretkom projekta.
 
-### Instalcija i integracija GitHub sistema
-
+### Alati i potrebno za znati
+Instalacija za [GitHub Desktop](https://github.com/apps/desktop?ref_cta=download+desktop&ref_loc=about+github+desktop&ref_page=docs)
+Kako koristiti [GitHub Desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)
 ### Pravila kojima treba da se vodite
