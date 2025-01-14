@@ -28,4 +28,4 @@ Sve relevantne informacije vezane za rokove, dodeljene zadatke i odgovornosti mo
 
 Sve o potrebnim alatima mozete pronaći na [tools.md](https://github.com/nskemish/medmentum/blob/main/tools.md), informacije poput instalacije **GitHub**-a, kao i pojedinačnog software-a koji su potrebni za realizaciju projekta.
 
-![random slika banane]()
+![random slika banane](https://github.com/nskemish/medmentum/blob/main/misc/gh%24assets/bannana.png)
