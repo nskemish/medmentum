@@ -27,9 +27,9 @@ Sve relevantne informacije vezane za rokove, dodeljene zadatke i odgovornosti mo
 
 ## **Alati i potrebno za znati**
 
-### **Git**
-**[Sve o GitHubu](https://docs.github.com/en/get-started/start-your-journey)**
+###    **Git**
+Ovde možete pronaći sve što vas zanima o GitHub-u **[Sve o GitHub-u](https://docs.github.com/en/get-started/start-your-journey)**
 
-**Instalacija za [GitHub Desktop](https://github.com/apps/desktop?ref_cta=download+desktop&ref_loc=about+github+desktop&ref_page=docs)**
+**Site za instalciju potrebnog [GitHub Desktop-a](https://github.com/apps/desktop?ref_cta=download+desktop&ref_loc=about+github+desktop&ref_page=docs)**
 
-**Kako koristiti [GitHub Desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)**
+**Informacije za korišćenje [GitHub Desktop-a](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)**
