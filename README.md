@@ -24,4 +24,4 @@ Naša misija je da modernizujemo proces primene terapije, smanjujući rizik od g
 Sve relevantne informacije vezane za rokove, dodeljene zadatke i odgovornosti možete pronaći u dokumentu "[roadmap.md](https://github.com/nskemish/medmentum/blob/main/roadmap.md)" Molim vas da ga pregledate kako bi svi bili u toku sa svojim obavezama i napretkom projekta.
 
 ## **Potrebni Alati**
-Sve o potrebnim alatima mozete pronaći na [tools.md]("https://github.com/nskemish/medmentum/blob/main/tools.md"), informacije poput instalacije GitHub-a i pojedinačnog software-a koji su potrebni za realizaciju projekta.
+Sve o potrebnim alatima mozete pronaći na [tools.md](https://github.com/nskemish/medmentum/blob/main/tools.md), informacije poput instalacije GitHub-a i pojedinačnog software-a koji su potrebni za realizaciju projekta.
