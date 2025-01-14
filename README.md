@@ -18,12 +18,12 @@ Naša misija je da modernizujemo proces primene terapije, smanjujući rizik od g
 - Sigurnosne funkcije poput zaključavanja i alarmiranja u slučaju nepravilnog korišćenja.
 
 
-# **Informacije za članove tima 💻** 
+# **💻 Informacije za članove tima 💻** 
 ### Opšte za "MedMentum"
 
 Sve relevantne informacije vezane za rokove, dodeljene zadatke i odgovornosti možete pronaći u PDF dokumentu pod nazivom "Medmentum_Roadmap.pdf" Molim vas da ga pregledate kako bi svi bili u toku sa svojim obavezama i napretkom projekta.
 
-# **Alati i potrebno za znati**
+# **🔧 Alati i Potrebno za Znati 🔧** 
 
 ##    **Git**
 **Ovde možete pronaći sve što vas zanima o GitHub-u: [Sve o GitHub-u](https://docs.github.com/en/get-started/start-your-journey)**
