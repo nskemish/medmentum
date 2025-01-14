@@ -1,5 +1,5 @@
 # Alati
-## GitHub
+## **GitHub**
 ---
 ### 1. **GitHub Desktop**
 GitHub Desktop je jednostavan alat za upravljanje Git projektima putem grafičkog korisničkog interfejsa. Idealno je za korisnike koji nisu upoznati sa komandnom linijom.  
