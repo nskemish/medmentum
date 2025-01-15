@@ -1,19 +1,25 @@
-# **Ukratko o MedMentum-u ⚡**
+
 ![Static Badge](https://img.shields.io/badge/MedMentum-2025-green)
 
+**Šta je zapravo MedMentum?**
+---
 
-**Opis projekta**  
 Medmentum je napredan sistem za automatsko doziranje lekova, osmišljen da unapredi sigurnost i efikasnost u upravljanju terapijama. Kroz inovativni dizajn i preciznu tehnologiju, Medmentum omogućava pouzdano i jednostavno doziranje lekova, pružajući podršku kako pacijentima, tako i zdravstvenim radnicima.  
 
-**Misija**  
+**Naša misija** 
+---
+
 Naša misija je da modernizujemo proces primene terapije, smanjujući rizik od grešaka u doziranju i povećavajući poverenje u medicinsku negu. Medmentum kombinuje tehnologiju i praktičnost kako bi svakodnevne terapije bile jednostavnije i sigurnije.  
 
-**Ciljevi**  
+**Ciljevi**
+---
+
 - **Preciznost:** Obezbeđivanje tačnog doziranja lekova u skladu s propisanom terapijom.  
 - **Sigurnost:** Smanjenje rizika od grešaka i predoziranja kroz pametne sigurnosne mehanizme.  
 - **Pristupačnost:** Jednostavno korišćenje za pacijente svih uzrasta i zdravstvenih stanja.  
 
-**Ključne karakteristike**  
+**Ključne karakteristike**
+---
 - Pametni uređaj sa automatskom primenom lekova.  
 - Integracija sa mobilnim aplikacijama za praćenje i prilagođavanje terapije.  
 - Notifikacije i podsetnici za uzimanje lekova.  
