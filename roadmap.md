@@ -1,7 +1,8 @@
 # Rokovi i zadaci <sup></></sup>
 
 > [!IMPORTANT]
-> ### **Ovde se nalaze svi zadaci i njihovi rokovi, ovim dokumentom se svi članovi tima moraju striktno pridržavati!** 
+> ### ***Ovde se nalaze svi zadaci i njihovi rokovi, ovim dokumentom se svi članovi tima moraju striktno pridržavati!***
+
  
  **1A Hardver** <sup>***End Date: 14. Feb***</sup>
  ---
@@ -61,24 +62,18 @@
 ---
 ### **2A1 Korisnička Dokumentacija** <sup>***End Date: 30. Jan***</sup>
 
-***2A101*** – Opšti pasusi	
-
-***2A102*** – Problemi i rešenja korisnika	
-
-***2A103*** – Pravljenje ankete za ciljnu grupu korisnika	
-
+***2A101*** – Opšti pasusi \
+***2A102*** – Problemi i rešenja korisnika	\
+***2A103*** – Pravljenje ankete za ciljnu grupu korisnika	\
 ***2A104*** – Rezultati ankete i zaključci	
 
 ### **2A2 Tehnička Dokumentacija** <sup>***End Date: 7. Mar***</sup>
- 
-***2A201*** - Tehnički zapis elektronike za južni most	
 
-***2A202*** - Tehnički zapis elektronike za severni most	
-
-***2A203*** - Tehnički zapis firmvera za južni most	
-
-***2A204*** - Tehnički zapis firmvera za severni most	
-
-***2A205*** - Tehničko objašnjenje za mehanički spektar uredjaja	
-
+***2A201*** - Tehnički zapis elektronike za južni most \
+***2A202*** - Tehnički zapis elektronike za severni most	\
+***2A203*** - Tehnički zapis firmvera za južni most	\
+***2A204*** - Tehnički zapis firmvera za severni most \
+***2A205*** - Tehničko objašnjenje za mehanički spektar uredjaja \
 ***2A206*** - Objašnjenje iza pojedinih specifičnih izbora	
+
+---
