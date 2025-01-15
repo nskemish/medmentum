@@ -2,12 +2,12 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "ead52261-b3da-41ef-908f-3daaabe10954")
+	(uuid "34a6f8a3-e0fb-4fa5-b2ae-d79746f0b17e")
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 43.18 50.8)
-		(size 35.56 26.67)
+		(at 64.77 54.61)
+		(size 31.75 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -16,9 +16,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "940ef1bd-73e9-475b-b1ba-056ab9b45d18")
-		(property "Sheetname" "South Bridge"
-			(at 43.18 50.0884 0)
+		(uuid "78a62861-c456-4847-87b2-ffea83171404")
+		(property "Sheetname" "Battery Managment System"
+			(at 64.77 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26,8 +26,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "south_bridge.kicad_sch"
-			(at 43.18 78.0546 0)
+		(property "Sheetfile" "bms.kicad_sch"
+			(at 64.77 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,15 +37,15 @@
 		)
 		(instances
 			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(page "2")
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954/940ef1bd-73e9-475b-b1ba-056ab9b45d18"
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 153.67 52.07)
-		(size 34.29 21.59)
+		(at 129.54 54.61)
+		(size 31.75 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -54,9 +54,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "b44d592a-82f2-47c3-8b43-4f77ff07d0d6")
-		(property "Sheetname" "North Bridge"
-			(at 153.67 51.3584 0)
+		(uuid "e562aa6d-779d-4ead-8af2-051e7c1e0296")
+		(property "Sheetname" "STM32 MCU"
+			(at 129.54 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64,8 +64,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "north_bridge.kicad_sch"
-			(at 153.67 74.2446 0)
+		(property "Sheetfile" "stm32_mcu.kicad_sch"
+			(at 129.54 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75,15 +75,10 @@
 		)
 		(instances
 			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(page "5")
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954/940ef1bd-73e9-475b-b1ba-056ab9b45d18"
+					(page "4")
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )

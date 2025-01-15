@@ -1,0 +1,46 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7f8d18c1-a9d8-49a6-907a-6f679c8b26bb")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 81.28 68.58)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f73c2242-2e49-4801-86ce-f4f244b842ce")
+		(property "Sheetname" "ESP32 MCU"
+			(at 81.28 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32_mcu.kicad_sch"
+			(at 81.28 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954/b44d592a-82f2-47c3-8b43-4f77ff07d0d6"
+					(page "6")
+				)
+			)
+		)
+	)
+)
