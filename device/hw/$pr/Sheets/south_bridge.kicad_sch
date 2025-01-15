@@ -26,7 +26,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "bms.kicad_sch"
+		(property "Sheetfile" "South Bridge/bms.kicad_sch"
 			(at 64.77 78.0546 0)
 			(effects
 				(font
@@ -64,7 +64,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "stm32_mcu.kicad_sch"
+		(property "Sheetfile" "South Bridge/stm32_mcu.kicad_sch"
 			(at 129.54 79.3246 0)
 			(effects
 				(font
