@@ -1,10 +1,10 @@
 
 ![Static Badge](https://img.shields.io/badge/MedMentum-2025-green)
 
-**Šta je zapravo MedMentum?**
+Šta je zapravo **MedMentum?**
 ---
 
-Medmentum je napredan sistem za automatsko doziranje lekova, osmišljen da unapredi sigurnost i efikasnost u upravljanju terapijama. Kroz inovativni dizajn i preciznu tehnologiju, Medmentum omogućava pouzdano i jednostavno doziranje lekova, pružajući podršku kako pacijentima, tako i zdravstvenim radnicima.  
+**MedMentum** je napredan sistem za automatsko doziranje lekova, osmišljen da unapredi sigurnost i efikasnost u upravljanju terapijama. Kroz inovativni dizajn i preciznu tehnologiju, MedMentum omogućava pouzdano i jednostavno doziranje lekova, pružajući podršku kako pacijentima, tako i zdravstvenim radnicima.  
 
 **Naša misija** 
 ---
