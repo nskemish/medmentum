@@ -1,7 +1,6 @@
-# Rokovi i zadaci <sup></></sup>
 
 > [!IMPORTANT]
-> ### ***Ovde se nalaze svi zadaci i njihovi rokovi, ovim dokumentom se svi članovi tima moraju striktno pridržavati!***
+> *Ovde se nalaze svi zadaci i njihovi rokovi, ovim dokumentom se svi članovi tima moraju striktno pridržavati!*
 
  
  **1A Hardver** <sup>***End Date: 14. Feb***</sup>
