@@ -26,7 +26,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "south_bridge.kicad_sch"
+		(property "Sheetfile" "Sheets/south_bridge.kicad_sch"
 			(at 43.18 78.0546 0)
 			(effects
 				(font
@@ -64,7 +64,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "north_bridge.kicad_sch"
+		(property "Sheetfile" "Sheets/north_bridge.kicad_sch"
 			(at 153.67 74.2446 0)
 			(effects
 				(font
