@@ -1,6 +1,4 @@
->[!WARNING]
->Projekat je idalje u fazi izrade.
->
+
 ![Static Badge](https://img.shields.io/badge/MedMentum-2025-green)
 
 Šta je zapravo **MedMentum?**
@@ -37,5 +35,7 @@ Sve relevantne informacije vezane za rokove, dodeljene zadatke i odgovornosti mo
 ## **Potrebni Alati <sup>🔧</sup>**
 
 Sve o potrebnim alatima mozete pronaći na [tools.md](https://github.com/nskemish/medmentum/blob/main/tools.md), informacije poput instalacije **GitHub**-a, kao i pojedinačnog software-a koji su potrebni za realizaciju projekta.
+
+
 
 ![random slika banane](https://github.com/nskemish/medmentum/blob/main/misc/gh%24assets/bannana.png)
