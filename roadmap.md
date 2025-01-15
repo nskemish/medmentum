@@ -54,8 +54,14 @@
 ***1C203*** – Dizajn za čitač otisaka prstiju
 
 **2A Papirologija**
+### **Tekst o Medmentumu**
+***2A101***– Opšti pasusi
+***2A102***– Problemi i rešenja korisnika
+***2A103***– Pravljenje ankete za ciljnu grupu
+***2A104***– Rezultati ankete i zaključci
 
 **2B Dokumentacija**
+
 
 ----------
 
