@@ -1,4 +1,6 @@
-
+>[!WARNING]
+>Projekat je idalje u fazi izrade.
+>
 ![Static Badge](https://img.shields.io/badge/MedMentum-2025-green)
 
 Šta je zapravo **MedMentum?**
