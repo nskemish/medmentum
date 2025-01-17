@@ -1,4 +1,6 @@
 
+![MedMentum Project](misc/gh$assets/mmlogo.png)
+
 ![Static Badge](https://img.shields.io/badge/MedMentum-2025-green)
 
 Šta je zapravo **MedMentum?**
@@ -38,4 +40,4 @@ Sve o potrebnim alatima mozete pronaći na [tools.md](https://github.com/nskemis
 
 
 
-![random slika banane](https://github.com/nskemish/medmentum/blob/main/misc/gh%24assets/bannana.png)
+
