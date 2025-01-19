@@ -4,9 +4,9 @@
  ### **1A1 Šeme**  
 
 ***1A101*** – Podesavanje radnog okruženja  
-***1A102*** – Pronalaženje potrebnih komponenti u skladu sa trenutnim sektorom  
-***1A103*** – Prikupljanje materijala: simbole, kućišta, tehničke liste, 3D modele  
-***1A104*** – Kreiranje blokova  
+***1A102*** – Prikupljanje materijala: simbole, kućišta, tehničke liste, 3D modele  
+***1A104*** – Pronalaženje potrebnih komponenti u skladu sa trenutnim sektorom  
+***1A103*** – Kreiranje blokova  
 ***1A105*** – Provera pojedinačnih blokova  
 ***1A106*** – Spajanje blokova u sektore  
 ***1A107*** – Provera gotove šeme
