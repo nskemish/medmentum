@@ -57,7 +57,7 @@
 ***1C202*** – Dizajn pozicije ekrana  
 ***1C203*** – Dizajn za čitač otisaka prstiju
 
-**2A Papirologija** <sup>***End Date: 7. Mar***</sup>
+**2A Papirologija** <sup>***End Date: 20. Mar***</sup>
 ---
 ### **2A1 Korisnička Dokumentacija** <sup>***End Date: 30. Jan***</sup>
 
@@ -66,7 +66,7 @@
 ***2A103*** – Pravljenje ankete za ciljnu grupu korisnika	\
 ***2A104*** – Rezultati ankete i zaključci	
 
-### **2A2 Tehnička Dokumentacija** <sup>***End Date: 7. Mar***</sup>
+### **2A2 Tehnička Dokumentacija** <sup>***End Date: 20. Mar***</sup>
 
 ***2A201*** - Tehnički zapis elektronike za južni most \
 ***2A202*** - Tehnički zapis elektronike za severni most	\
