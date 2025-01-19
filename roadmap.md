@@ -53,15 +53,25 @@
 ***1C202*** – Dizajn pozicije ekrana  
 ***1C203*** – Dizajn za čitač otisaka prstiju
 
+<<<<<<< Updated upstream
 **2A Papirologija**
 ### **Tekst o Medmentumu**
 ***2A101***– Opšti pasusi
 ***2A102***– Problemi i rešenja korisnika
 ***2A103***– Pravljenje ankete za ciljnu grupu
 ***2A104***– Rezultati ankete i zaključci
+=======
+**2A Papirologija** <sup>***End Date: 19. Mar***</sup>
+---
+### **2A1 Korisnička Dokumentacija** <sup>***End Date: 30. Jan***</sup>
+>>>>>>> Stashed changes
 
 **2B Dokumentacija**
 
+<<<<<<< Updated upstream
+=======
+### **2A2 Tehnička Dokumentacija** <sup>***End Date: 19. Mar***</sup>
+>>>>>>> Stashed changes
 
 ----------
 
