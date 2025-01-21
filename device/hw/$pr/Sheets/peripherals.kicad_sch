@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4e01fcf1-7a0d-48fe-b0e7-4e229253f50f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 74.93 40.64)
+		(size 22.86 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2cb2bcce-9df4-43c6-a91b-242926105530")
+		(property "Sheetname" "Speaker"
+			(at 74.93 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals/speaker.kicad_sch"
+			(at 74.93 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954/df886fcf-452c-4fb9-a819-05e60426a5e4"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 76.2)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3df0c926-46a0-4a61-ad95-0956f6c9cacf")
+		(property "Sheetname" "Display"
+			(at 33.02 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals/display.kicad_sch"
+			(at 33.02 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954/df886fcf-452c-4fb9-a819-05e60426a5e4"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 33.02)
+		(size 24.13 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5413f323-94e1-4df8-9952-400fc90299b0")
+		(property "Sheetname" "Touch"
+			(at 25.4 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals/touch.kicad_sch"
+			(at 25.4 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954/df886fcf-452c-4fb9-a819-05e60426a5e4"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 78.74)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f54633b-a31d-483c-a13a-10639c8c9ca7")
+		(property "Sheetname" "Biometric"
+			(at 76.2 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals/biometric.kicad_sch"
+			(at 76.2 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954/df886fcf-452c-4fb9-a819-05e60426a5e4"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 46.99)
+		(size 29.21 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84a05324-89a9-4757-ad4d-e9c84d1c42a7")
+		(property "Sheetname" "Motor"
+			(at 127 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals/motor.kicad_sch"
+			(at 127 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954/df886fcf-452c-4fb9-a819-05e60426a5e4"
+					(page "10")
+				)
+			)
+		)
+	)
+)

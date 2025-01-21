@@ -406,6 +406,30 @@
     [
       "f73c2242-2e49-4801-86ce-f4f244b842ce",
       "ESP32 MCU"
+    ],
+    [
+      "df886fcf-452c-4fb9-a819-05e60426a5e4",
+      "Peripherals"
+    ],
+    [
+      "5413f323-94e1-4df8-9952-400fc90299b0",
+      "Touch"
+    ],
+    [
+      "2cb2bcce-9df4-43c6-a91b-242926105530",
+      "Speaker"
+    ],
+    [
+      "84a05324-89a9-4757-ad4d-e9c84d1c42a7",
+      "Motor"
+    ],
+    [
+      "3df0c926-46a0-4a61-ad95-0956f6c9cacf",
+      "Display"
+    ],
+    [
+      "7f54633b-a31d-483c-a13a-10639c8c9ca7",
+      "Biometric"
     ]
   ],
   "text_variables": {}
