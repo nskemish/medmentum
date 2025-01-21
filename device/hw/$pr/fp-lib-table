@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "fpl")(type "KiCad")(uri "/home/kemish/Projects/medmentum/device/hw/$d/fpl.pretty")(options "")(descr ""))
+)

@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "4e01fcf1-7a0d-48fe-b0e7-4e229253f50f")
 	(paper "A4")
+	(title_block
+		(company "ETŠ Mihajlo Pupin \"Medmentum\"")
+	)
 	(lib_symbols)
 	(sheet
 		(at 74.93 40.64)
