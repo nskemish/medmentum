@@ -2592,6 +2592,25 @@
 		)
 		(uuid ffb43a43-9c6a-4c46-8fba-35a03af79169)
 	)
+	(text_box "Vin=0 VBAT=BAT"
+		(exclude_from_sim no)
+		(at 83.82 29.845 0)
+		(size 8.255 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left top)
+		)
+		(uuid "05acfd44-72b7-4335-b98b-c8dd77ca9cb4")
+	)
 	(text "Battery Fuel Gauge IC"
 		(exclude_from_sim no)
 		(at 117.094 17.78 0)
@@ -2783,6 +2802,30 @@
 			(justify left bottom)
 		)
 		(uuid "c5f78d2d-7972-48f8-aa28-fb95d9b941f6")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 115.57 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "9405c1ec-8f3a-4115-9601-3b57930b366f")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 115.57 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "badc232f-a5f4-4509-8e45-051cab4ffab2")
 	)
 	(netclass_flag ""
 		(length 1.27)
