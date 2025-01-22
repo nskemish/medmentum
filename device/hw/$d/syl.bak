@@ -1790,7 +1790,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "TPS63020DSJR:IC_TPS63020DSJR"
+		(property "Footprint" "fpl:TPS63020DSJR"
 			(at 2.54 -16.256 0)
 			(effects
 				(font
