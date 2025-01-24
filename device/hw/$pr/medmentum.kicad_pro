@@ -480,7 +480,8 @@
       "Net-(U2-~{PGOOD})": "DATA",
       "Net-(U3-EN)": "POWER",
       "Net-(U3-PG)": "DATA",
-      "VBUS": "POWER"
+      "VBUS": "POWER",
+      "unconnected-(R14-Pad1)": "DATA"
     },
     "netclass_patterns": []
   },
