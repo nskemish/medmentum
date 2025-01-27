@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "48abdbc2-baab-4ff2-9712-ae86e445bb7e")
+	(paper "A4")
+	(title_block
+		(company "ETŠ Mihajlo Pupin \"Medmentum\"")
+	)
+	(lib_symbols)
+)

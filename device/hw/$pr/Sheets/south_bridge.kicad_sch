@@ -47,6 +47,44 @@
 		)
 	)
 	(sheet
+		(at 186.69 57.15)
+		(size 21.59 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a93874a7-5eef-4e57-94ff-337c10ac9649")
+		(property "Sheetname" "DAC"
+			(at 186.69 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "South Bridge/dac.kicad_sch"
+			(at 186.69 79.9596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954/940ef1bd-73e9-475b-b1ba-056ab9b45d18"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 129.54 54.61)
 		(size 31.75 24.13)
 		(fields_autoplaced yes)
