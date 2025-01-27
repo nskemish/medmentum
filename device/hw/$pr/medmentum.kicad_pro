@@ -593,7 +593,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "/home/kemish/Downloads/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -651,6 +651,10 @@
     [
       "7f54633b-a31d-483c-a13a-10639c8c9ca7",
       "Biometric"
+    ],
+    [
+      "a93874a7-5eef-4e57-94ff-337c10ac9649",
+      "DAC"
     ]
   ],
   "text_variables": {}
