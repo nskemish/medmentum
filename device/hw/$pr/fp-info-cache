@@ -1,4 +1,4 @@
-24365925438027905
+24369401308737602
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98399,9 +98399,23 @@ TPS62082DSGR
 11
 11
 fpl
+TPS63002DRCR
+
+
+0
+15
+15
+fpl
 TPS63020DSJR
 
 
 0
 15
 15
+fpl
+USB-310F-B-SU
+
+
+0
+20
+17
