@@ -464,6 +464,7 @@
       "/South Bridge/Battery Managment System/#CHG": "DATA",
       "/South Bridge/Battery Managment System/#PGOOD": "DATA",
       "/South Bridge/Battery Managment System/BAT": "POWER",
+      "/South Bridge/Battery Managment System/BCK5_VOUT": "POWER",
       "/South Bridge/Battery Managment System/CHG_#CE": "DATA",
       "/South Bridge/Battery Managment System/CHG_#CHG": "DATA",
       "/South Bridge/Battery Managment System/CHG_#PGOOD": "DATA",
@@ -471,12 +472,14 @@
       "/South Bridge/Battery Managment System/FG_GPOUT": "DATA",
       "/South Bridge/Battery Managment System/FG_SCL": "DATA",
       "/South Bridge/Battery Managment System/FG_SDA": "DATA",
+      "/South Bridge/Battery Managment System/VBSIN": "POWER",
       "BATSYS": "POWER",
       "BCKOUT": "POWER",
       "BCKOUT33": "POWER",
       "BCKOUT5": "POWER",
       "BCOUT": "POWER",
       "Net-(U1-BIN)": "DATA",
+      "Net-(U1-FB)": "POWER",
       "Net-(U1-GPOUT)": "DATA",
       "Net-(U1-SCL)": "DATA",
       "Net-(U1-SDA)": "DATA",
@@ -556,11 +559,47 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSCPart",
+          "name": "LCSCPart",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -651,10 +690,6 @@
     [
       "7f54633b-a31d-483c-a13a-10639c8c9ca7",
       "Biometric"
-    ],
-    [
-      "a93874a7-5eef-4e57-94ff-337c10ac9649",
-      "DAC"
     ]
   ],
   "text_variables": {}
