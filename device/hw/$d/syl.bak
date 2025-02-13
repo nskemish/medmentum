@@ -2751,7 +2751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://github.com/nskemish/medmentum/blob/main/device/hw/%24ds/South%20Bridge/BMS/USB-310F-B-SU/HOOYA-USB-310F-B-SU_C309365.pdf"
 			(at 0 -30.48 0)
 			(effects
 				(font
