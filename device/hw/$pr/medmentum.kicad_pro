@@ -672,10 +672,6 @@
       "Peripherals"
     ],
     [
-      "5413f323-94e1-4df8-9952-400fc90299b0",
-      "Touch"
-    ],
-    [
       "2cb2bcce-9df4-43c6-a91b-242926105530",
       "Speaker"
     ],
@@ -686,10 +682,6 @@
     [
       "3df0c926-46a0-4a61-ad95-0956f6c9cacf",
       "Display"
-    ],
-    [
-      "7f54633b-a31d-483c-a13a-10639c8c9ca7",
-      "Biometric"
     ]
   ],
   "text_variables": {}
