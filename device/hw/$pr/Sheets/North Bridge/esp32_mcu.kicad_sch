@@ -1709,6 +1709,28 @@
 		)
 		(uuid "f7f2ab25-eaa8-41c7-a931-677314835a61")
 	)
+	(label "ENESP"
+		(at 134.62 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "8add26ad-211b-4d5d-945c-c0bcd0b50116")
+	)
+	(label "VDDESP"
+		(at 134.62 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee755fe7-5c2b-47fb-93cd-4c4f1d4e1ace")
+	)
 	(hierarchical_label "UARTRX_ESP"
 		(shape bidirectional)
 		(at 161.29 55.88 0)

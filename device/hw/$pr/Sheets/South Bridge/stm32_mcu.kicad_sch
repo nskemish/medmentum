@@ -2830,16 +2830,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 53.34) (xy 86.36 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f8eacc9-470c-4f20-8179-d1e019b49294")
-	)
-	(wire
-		(pts
 			(xy 121.92 80.01) (xy 124.46 82.55)
 		)
 		(stroke
@@ -2897,6 +2887,16 @@
 			(type default)
 		)
 		(uuid "45615935-41a8-44fb-8dda-85d8aca0b977")
+	)
+	(wire
+		(pts
+			(xy 85.09 53.34) (xy 86.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46db5f66-f3b5-4b67-a224-9dc33feb40ee")
 	)
 	(wire
 		(pts
@@ -3229,7 +3229,7 @@
 	)
 	(text "TIM2"
 		(exclude_from_sim no)
-		(at 175.006 120.904 0)
+		(at 176.276 120.904 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -3258,7 +3258,7 @@
 		)
 		(uuid "16d50fad-5ac7-4d8e-950a-5e58b4bc5154")
 	)
-	(label "VDD"
+	(label "VDDSTM"
 		(at 127 53.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3313,7 +3313,7 @@
 		)
 		(uuid "8fe2d4ae-a6ae-49b0-ae31-9aab12eb6955")
 	)
-	(label "VDDA"
+	(label "VDDASTM"
 		(at 124.46 67.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3358,7 +3358,7 @@
 		)
 		(uuid "0f9756a9-ec4e-4d6f-82b9-42485c1f80d9")
 	)
-	(hierarchical_label "LEDPWM"
+	(hierarchical_label "LEDHOPWM"
 		(shape input)
 		(at 168.91 120.65 0)
 		(fields_autoplaced yes)
@@ -4043,6 +4043,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 82.55 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "367e4ec3-b0bd-4b19-843a-9edec258a6a8")
+		(property "Reference" "R31"
+			(at 82.55 50.292 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 82.55 51.562 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26014605-2888-46ba-a06d-57114b1e786b")
+		)
+		(pin "2"
+			(uuid "d218939d-67c9-47be-8f3b-d53287457403")
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954/940ef1bd-73e9-475b-b1ba-056ab9b45d18/e562aa6d-779d-4ead-8af2-051e7c1e0296"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 127 104.14 90)
 		(unit 1)
@@ -4448,16 +4515,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 81.28 53.34 90)
+		(at 80.01 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6225953c-33d8-4330-8b47-b694869dd1e5")
 		(property "Reference" "#PWR037"
-			(at 85.09 53.34 0)
+			(at 83.82 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4532,7 @@
 			)
 		)
 		(property "Value" "BCKOUT33"
-			(at 77.47 53.34 90)
+			(at 76.2 53.34 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4475,7 +4541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 53.34 0)
+			(at 80.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 53.34 0)
+			(at 80.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 81.28 53.34 0)
+			(at 80.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

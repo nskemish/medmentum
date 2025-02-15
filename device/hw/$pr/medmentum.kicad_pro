@@ -463,6 +463,8 @@
       "/South Bridge/Battery Managment System/#CE": "DATA",
       "/South Bridge/Battery Managment System/#CHG": "DATA",
       "/South Bridge/Battery Managment System/#PGOOD": "DATA",
+      "/South Bridge/Battery Managment System/+USB_D": "DATA",
+      "/South Bridge/Battery Managment System/-USB_D": "DATA",
       "/South Bridge/Battery Managment System/BAT": "POWER",
       "/South Bridge/Battery Managment System/BCK5_VOUT": "POWER",
       "/South Bridge/Battery Managment System/CHG_#CE": "DATA",
@@ -488,7 +490,10 @@
       "Net-(U2-~{PGOOD})": "DATA",
       "Net-(U3-EN)": "POWER",
       "Net-(U3-PG)": "DATA",
+      "Net-(U7-D+)": "DATA",
+      "Net-(U7-D-)": "DATA",
       "VBUS": "POWER",
+      "VDD": "POWER",
       "unconnected-(R14-Pad1)": "DATA"
     },
     "netclass_patterns": []
