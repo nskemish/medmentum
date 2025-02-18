@@ -481,6 +481,8 @@
       "BCKOUT5": "POWER",
       "BCOUT": "POWER",
       "Net-(U1-BIN)": "DATA",
+      "Net-(U1-D+)": "DATA",
+      "Net-(U1-D-)": "DATA",
       "Net-(U1-FB)": "POWER",
       "Net-(U1-GPOUT)": "DATA",
       "Net-(U1-SCL)": "DATA",
@@ -600,6 +602,30 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package ",
+          "name": "Package ",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -675,18 +701,6 @@
     [
       "df886fcf-452c-4fb9-a819-05e60426a5e4",
       "Peripherals"
-    ],
-    [
-      "2cb2bcce-9df4-43c6-a91b-242926105530",
-      "Speaker"
-    ],
-    [
-      "84a05324-89a9-4757-ad4d-e9c84d1c42a7",
-      "Motor"
-    ],
-    [
-      "3df0c926-46a0-4a61-ad95-0956f6c9cacf",
-      "Display"
     ]
   ],
   "text_variables": {}

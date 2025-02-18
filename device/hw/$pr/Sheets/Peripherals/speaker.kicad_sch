@@ -823,7 +823,6 @@
 	)
 	(label "BUZPWM"
 		(at 120.65 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -834,7 +833,6 @@
 	)
 	(label "BUZVCC"
 		(at 144.78 90.17 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -842,6 +840,17 @@
 			(justify left bottom)
 		)
 		(uuid "c783218b-9a6e-425d-88c2-e5f02aba9a7d")
+	)
+	(hierarchical_label "BUZPWM"
+		(shape input)
+		(at 119.38 107.95 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right)
+		)
+		(uuid "7e7a320e-251c-42c2-af21-dd2180a34bbb")
 	)
 	(symbol
 		(lib_id "power:GNDD")
