@@ -460,6 +460,24 @@
     "net_colors": null,
     "netclass_assignments": {
       "+BATT": "POWER",
+      "/+USB_D": "DATA",
+      "/+USB_DSTM": "DATA",
+      "/-USB_D": "DATA",
+      "/-USB_DSTM": "DATA",
+      "/BAT": "POWER",
+      "/CHG_#CHG": "DATA",
+      "/CHG_#PGOOD": "DATA",
+      "/CONFSW": "DATA",
+      "/FG_BIN": "DATA",
+      "/FG_GPOUT": "DATA",
+      "/FG_SCL": "DATA",
+      "/FG_SDA": "DATA",
+      "/HOSW": "DATA",
+      "/IICDISP_SCL": "DATA",
+      "/IICDISP_SDA": "DATA",
+      "/PANICGPIO": "DATA",
+      "/STM_UARTRX": "DATA",
+      "/STM_UARTTX": "DATA",
       "/South Bridge/Battery Managment System/#CE": "DATA",
       "/South Bridge/Battery Managment System/#CHG": "DATA",
       "/South Bridge/Battery Managment System/#PGOOD": "DATA",
@@ -475,28 +493,15 @@
       "/South Bridge/Battery Managment System/FG_SCL": "DATA",
       "/South Bridge/Battery Managment System/FG_SDA": "DATA",
       "/South Bridge/Battery Managment System/VBSIN": "POWER",
-      "/South Bridge/STM32 MCU/+USB_D": "DATA",
       "/South Bridge/STM32 MCU/+USB_DSTM": "DATA",
-      "/South Bridge/STM32 MCU/-USB_D": "DATA",
       "/South Bridge/STM32 MCU/-USB_DSTM": "DATA",
-      "/South Bridge/STM32 MCU/BAT": "POWER",
-      "/South Bridge/STM32 MCU/CHG_#CHG": "DATA",
-      "/South Bridge/STM32 MCU/CHG_#PGOOD": "DATA",
       "/South Bridge/STM32 MCU/CHG_CHG": "DATA",
       "/South Bridge/STM32 MCU/CHG_PGOOD": "DATA",
-      "/South Bridge/STM32 MCU/CONFSW": "DATA",
-      "/South Bridge/STM32 MCU/FG_BIN": "DATA",
       "/South Bridge/STM32 MCU/FG_GPOUT": "DATA",
-      "/South Bridge/STM32 MCU/FG_SCL": "DATA",
-      "/South Bridge/STM32 MCU/FG_SDA": "DATA",
-      "/South Bridge/STM32 MCU/HOSW": "DATA",
       "/South Bridge/STM32 MCU/IICDISP_SCL": "DATA",
       "/South Bridge/STM32 MCU/IICDISP_SDA": "DATA",
       "/South Bridge/STM32 MCU/IICGAUG_SCL": "DATA",
       "/South Bridge/STM32 MCU/IICGAUG_SDA": "DATA",
-      "/South Bridge/STM32 MCU/PANICGPIO": "DATA",
-      "/South Bridge/STM32 MCU/STM_UARTRX": "DATA",
-      "/South Bridge/STM32 MCU/STM_UARTTX": "DATA",
       "/South Bridge/STM32 MCU/UARTRX_ESP": "DATA",
       "/South Bridge/STM32 MCU/UARTTX_ESP": "DATA",
       "BATSYS": "POWER",
@@ -518,11 +523,10 @@
       "Net-(U2-~{PGOOD})": "DATA",
       "Net-(U3-EN)": "POWER",
       "Net-(U3-PG)": "DATA",
+      "Net-(U6-PA14)": "DATA",
       "Net-(U7-D+)": "DATA",
       "Net-(U7-D-)": "DATA",
       "Net-(U7-PA14)": "DATA",
-      "Net-(U9-D+)": "DATA",
-      "Net-(U9-D-)": "DATA",
       "VBUS": "POWER",
       "VDD": "POWER",
       "unconnected-(R14-Pad1)": "DATA"
@@ -706,30 +710,6 @@
     [
       "ead52261-b3da-41ef-908f-3daaabe10954",
       "Root"
-    ],
-    [
-      "940ef1bd-73e9-475b-b1ba-056ab9b45d18",
-      "South Bridge"
-    ],
-    [
-      "78a62861-c456-4847-87b2-ffea83171404",
-      "Battery Managment System"
-    ],
-    [
-      "e562aa6d-779d-4ead-8af2-051e7c1e0296",
-      "STM32 MCU"
-    ],
-    [
-      "b44d592a-82f2-47c3-8b43-4f77ff07d0d6",
-      "North Bridge"
-    ],
-    [
-      "f73c2242-2e49-4801-86ce-f4f244b842ce",
-      "ESP32 MCU"
-    ],
-    [
-      "df886fcf-452c-4fb9-a819-05e60426a5e4",
-      "Peripherals"
     ]
   ],
   "text_variables": {}
