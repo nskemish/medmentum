@@ -28,3 +28,18 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-16 14:45:12.901
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-02-23 15:40:10.362 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-23 15:40:14.578
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-23 15:40:14.579
+!MESSAGE Log4j2 initialized with config file /home/kemish/Projects/medmentum/device/fw/$stmpr/MedMentum1/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-23 15:40:17.025
+!MESSAGE Started RMI Server, listening on port 41337
