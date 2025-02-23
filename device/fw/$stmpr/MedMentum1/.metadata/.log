@@ -1,0 +1,30 @@
+!SESSION 2025-02-15 16:49:59.686 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-15 16:50:20.377
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-15 16:50:20.378
+!MESSAGE Log4j2 initialized with config file /home/kemish/Projects/medmentum/device/fw/$stmpr/MedMentum1/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-15 16:50:22.299
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-02-16 14:45:05.774 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-16 14:45:10.112
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-16 14:45:10.113
+!MESSAGE Log4j2 initialized with config file /home/kemish/Projects/medmentum/device/fw/$stmpr/MedMentum1/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-16 14:45:12.901
+!MESSAGE Started RMI Server, listening on port 41337
