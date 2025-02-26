@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "syl")(type "KiCad")(uri "/home/kemish/Projects/medmentum/device/hw/$d/syl.kicad_sym")(options "")(descr ""))
+)
