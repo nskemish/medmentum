@@ -1,4 +1,4 @@
-24612910269089698
+24623354733129197
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99127,6 +99127,20 @@ Varistor VF
 2
 2
 fpl
+BAT-TH_BH-18650-A5BJ003
+
+
+0
+5
+2
+fpl
+BATTERY-SMD_18650-1S-L77.1-W20.7-1
+
+
+0
+3
+2
+fpl
 BQ24074RGTR
 
 
@@ -99140,6 +99154,20 @@ BQ27441DRZR-G1B
 0
 13
 13
+fpl
+BUZ-TH_BD17.0-P10.00-D0.8
+
+
+0
+2
+2
+fpl
+EPMM
+
+
+0
+1
+1
 fpl
 ESP32-C3-MINI-1-H4
 
@@ -99161,6 +99189,20 @@ STM32F411CEU6
 0
 49
 49
+fpl
+SW-SMD_K3-1235S-K1
+
+
+0
+3
+3
+fpl
+SW-TH_5P-L6.0-W6.0-P4.50-LS6.5
+
+
+0
+4
+2
 fpl
 TPS62082DSGR
 
