@@ -8293,12 +8293,6 @@
 		(uuid "52b65f98-ab09-4f51-9a27-8a698fcc0bcb")
 	)
 	(junction
-		(at 83.82 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53dc697f-6f4a-4d1a-ad52-3899773ef177")
-	)
-	(junction
 		(at 64.77 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8383,10 +8377,10 @@
 		(uuid "7f527d44-d840-4c2d-a4bd-91c2eda8563e")
 	)
 	(junction
-		(at 72.39 170.18)
+		(at 77.47 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "80704c36-cf35-419d-84ce-5e12c82d6bd0")
+		(uuid "844fd994-2908-418a-b22b-eaa385578d57")
 	)
 	(junction
 		(at 147.32 130.81)
@@ -8411,6 +8405,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99cf2db7-964b-4c8d-9bba-f2fabe3715f2")
+	)
+	(junction
+		(at 85.09 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a9f4fff-8d56-4e73-a681-1813be72ce1c")
 	)
 	(junction
 		(at 205.74 105.41)
@@ -8489,6 +8489,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b29bfa6e-5483-468d-ada2-4f903654c616")
+	)
+	(junction
+		(at 72.39 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6b0a664-056a-4dc2-aeac-ccd0ce4d0a4b")
 	)
 	(junction
 		(at 144.78 91.44)
@@ -8972,13 +8978,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 170.18) (xy 72.39 170.18)
+			(xy 86.36 170.18) (xy 85.09 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d8a4938-77bd-4f1e-bf06-6c629d82c778")
+		(uuid "0dde4d72-9a04-4b40-a960-195fdfef5b48")
 	)
 	(polyline
 		(pts
@@ -9182,7 +9188,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 170.18) (xy 83.82 170.18)
+			(xy 71.12 170.18) (xy 72.39 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9369,16 +9375,6 @@
 			(type dot)
 		)
 		(uuid "2c7783df-4a6b-4e6c-b249-793dc17135e8")
-	)
-	(wire
-		(pts
-			(xy 83.82 170.18) (xy 85.09 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d0b5cc1-f95e-4a66-b218-31fad0dc63d0")
 	)
 	(polyline
 		(pts
@@ -10410,6 +10406,16 @@
 		)
 		(uuid "6ebbcbef-bbc3-4c21-a93b-c1988e7ff415")
 	)
+	(wire
+		(pts
+			(xy 72.39 170.18) (xy 77.47 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc8ccd1-9e4e-46a1-a532-f06d2b0fcb2e")
+	)
 	(polyline
 		(pts
 			(xy 103.505 134.62) (xy 103.505 137.795)
@@ -10959,6 +10965,16 @@
 			(type default)
 		)
 		(uuid "9a9cb5cd-6386-4d6d-aa90-c6fa0a4f17f5")
+	)
+	(wire
+		(pts
+			(xy 77.47 170.18) (xy 85.09 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9d116f-67f0-4458-b19b-7f7248c08188")
 	)
 	(wire
 		(pts
@@ -22384,7 +22400,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 83.82 182.88 0)
+		(at 85.09 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22392,7 +22408,7 @@
 		(dnp no)
 		(uuid "6c5276af-7572-400c-8296-f8c6fe83e49d")
 		(property "Reference" "#PWR034"
-			(at 83.82 189.23 0)
+			(at 85.09 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22401,7 +22417,7 @@
 			)
 		)
 		(property "Value" "LGND"
-			(at 85.09 185.928 0)
+			(at 86.36 185.928 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -22410,7 +22426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 182.88 0)
+			(at 85.09 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22419,7 +22435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 182.88 0)
+			(at 85.09 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22428,7 +22444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 83.82 182.88 0)
+			(at 85.09 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26441,6 +26457,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 77.47 173.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1d22321-a528-4d40-8d07-2148eea8ae07")
+		(property "Reference" "C37"
+			(at 81.026 170.942 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 81.026 172.212 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 76.5048 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPart" "C15850"
+			(at 77.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1213b4b-854b-4864-8f52-ffea819763fd")
+		)
+		(pin "2"
+			(uuid "dc546572-e2d0-4082-bde6-7b175f1bbfda")
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 69.85 21.59 0)
 		(unit 1)
@@ -29126,7 +29220,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 85.09 170.18 270)
+		(at 86.36 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29135,7 +29229,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0bc1ca7-50d7-4974-8aa2-6538144dd876")
 		(property "Reference" "#PWR035"
-			(at 81.28 170.18 0)
+			(at 82.55 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29144,7 +29238,7 @@
 			)
 		)
 		(property "Value" "BCKOUT33"
-			(at 88.9 170.18 90)
+			(at 90.17 170.18 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -29153,7 +29247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 170.18 0)
+			(at 86.36 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29162,7 +29256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 170.18 0)
+			(at 86.36 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29171,7 +29265,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 85.09 170.18 0)
+			(at 86.36 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29186,6 +29280,84 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 72.39 173.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0c8a36d-28c8-4c53-a512-24a5ba02532e")
+		(property "Reference" "C5"
+			(at 75.946 170.942 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 75.946 172.212 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 71.4248 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPart" "C15850"
+			(at 72.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "328f1007-7b70-4936-a16a-c68f48b8cdb7")
+		)
+		(pin "2"
+			(uuid "06cbf582-2f4e-41f6-a1df-0c2472214713")
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -29880,8 +30052,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 77.47 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6ddbd30-c939-41f6-be1b-1d6b9b69d6b7")
+		(property "Reference" "#PWR053"
+			(at 77.47 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 77.47 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 77.47 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51815624-d794-422f-b82b-2bea2bf27726")
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
-		(at 83.82 173.99 90)
+		(at 85.09 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29889,7 +30128,7 @@
 		(dnp no)
 		(uuid "c7bb6736-a6a5-403d-980d-8d0026172795")
 		(property "Reference" "D4"
-			(at 81.534 174.752 90)
+			(at 82.804 174.752 90)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -29898,7 +30137,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 81.534 173.482 90)
+			(at 82.804 173.482 90)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -29907,7 +30146,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 173.99 0)
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29916,7 +30155,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 173.99 0)
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29925,7 +30164,7 @@
 			)
 		)
 		(property "Description" "White LED"
-			(at 83.82 173.99 0)
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29934,7 +30173,7 @@
 			)
 		)
 		(property "LCSCPart" "C2297"
-			(at 83.82 173.99 90)
+			(at 85.09 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31188,7 +31427,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 83.82 180.34 180)
+		(at 85.09 180.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31196,7 +31435,7 @@
 		(dnp no)
 		(uuid "d4f66cdc-7c9a-4066-bb5d-d3dec01d39fa")
 		(property "Reference" "R18"
-			(at 81.661 179.705 0)
+			(at 82.931 179.705 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -31204,7 +31443,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 81.661 180.975 0)
+			(at 82.931 180.975 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -31212,7 +31451,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 83.82 180.34 0)
+			(at 85.09 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31221,7 +31460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 180.34 0)
+			(at 85.09 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31230,7 +31469,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 83.82 180.34 0)
+			(at 85.09 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31239,7 +31478,7 @@
 			)
 		)
 		(property "LCSCPart" "C23182"
-			(at 83.82 180.34 0)
+			(at 85.09 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34107,84 +34346,6 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 72.39 173.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fced2044-b5fe-4105-af4c-42e4f55f21ed")
-		(property "Reference" "C5"
-			(at 75.946 170.942 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 75.946 172.212 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 71.4248 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 72.39 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSCPart" "C45783"
-			(at 72.39 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76e11e1f-f7a3-41a9-81b4-496592d08ef7")
-		)
-		(pin "2"
-			(uuid "f544c132-bf25-41a6-8990-285e1d50f609")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "C5")
 					(unit 1)
 				)
 			)
