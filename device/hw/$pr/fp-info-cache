@@ -1,4 +1,4 @@
-24623354733129197
+24625095668110570
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99182,6 +99182,13 @@ IDC-TH_26P-P2.54_ZX-IDC2.54-2-13PZZ
 0
 26
 26
+fpl
+KEY-SMD_4P-L6.0-W6.0-P4.50-LS10.0
+
+
+0
+4
+4
 fpl
 STM32F411CEU6
 
