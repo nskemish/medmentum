@@ -178,7 +178,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.25,
+        0.3,
+        0.4,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -481,11 +485,13 @@
       "/CHG_#CHG": "DATA",
       "/CHG_#PGOOD": "DATA",
       "/CONFSW": "DATA",
+      "/CONFSW_DB": "DATA",
       "/FG_BIN": "DATA",
       "/FG_GPOUT": "DATA",
       "/FG_SCL": "DATA",
       "/FG_SDA": "DATA",
       "/HOSW": "DATA",
+      "/HOSW_DB": "DATA",
       "/IICDISP_SCL": "DATA",
       "/IICDISP_SDA": "DATA",
       "/PANICGPIO": "DATA",

@@ -8990,7 +8990,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 100.33) (xy 191.77 100.33)
+			(xy 198.12 100.33) (xy 191.77 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9120,7 +9120,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 92.71) (xy 191.77 92.71)
+			(xy 196.85 92.71) (xy 191.77 92.71)
 		)
 		(stroke
 			(width 0)
@@ -9220,7 +9220,7 @@
 	)
 	(polyline
 		(pts
-			(xy 198.12 86.36) (xy 198.12 106.68)
+			(xy 199.39 86.36) (xy 199.39 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9950,7 +9950,7 @@
 	)
 	(polyline
 		(pts
-			(xy 198.12 106.68) (xy 214.63 106.68)
+			(xy 199.39 106.68) (xy 214.63 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10360,7 +10360,7 @@
 	)
 	(polyline
 		(pts
-			(xy 198.12 86.36) (xy 214.63 86.36)
+			(xy 199.39 86.36) (xy 214.63 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10430,7 +10430,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 90.17) (xy 257.81 90.17)
+			(xy 261.62 90.17) (xy 257.81 90.17)
 		)
 		(stroke
 			(width 0)
@@ -11060,7 +11060,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 92.71) (xy 257.81 92.71)
+			(xy 261.62 92.71) (xy 257.81 92.71)
 		)
 		(stroke
 			(width 0)
@@ -13014,7 +13014,7 @@
 	)
 	(text "TIM4"
 		(exclude_from_sim no)
-		(at 198.374 90.17 0)
+		(at 198.12 90.17 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -13750,8 +13750,8 @@
 		)
 		(uuid "3c417f13-95d4-497d-9e99-861592c9db69")
 	)
-	(label "HOSW_DB"
-		(at 262.89 92.71 180)
+	(label "CONFSW"
+		(at 261.62 90.17 180)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -13760,7 +13760,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "4000b543-5c86-4914-aca3-bca91be538ee")
+		(uuid "40a0f461-0c87-4f26-8583-3d80370493fc")
 	)
 	(label "IICDISP_SCL"
 		(at 236.22 85.09 0)
@@ -13982,18 +13982,6 @@
 		)
 		(uuid "67e36962-11ae-4de7-9865-be16bb81fe50")
 	)
-	(label "HOSW"
-		(at 195.58 92.71 180)
-		(effects
-			(font
-				(size 0.635 0.635)
-				(thickness 0.127)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "6918e5e4-4618-4a78-8f88-13793fe4bf2c")
-	)
 	(label "USB_DSTM-"
 		(at 95.25 27.94 180)
 		(effects
@@ -14073,6 +14061,18 @@
 		)
 		(uuid "7d75a943-1930-444c-aa27-af8e6cc05f5a")
 	)
+	(label "HOSW"
+		(at 261.62 92.71 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d8a5613-994a-4059-a49c-0250c2fe06c0")
+	)
 	(label "BUZPWM"
 		(at 196.85 134.62 180)
 		(effects
@@ -14094,6 +14094,18 @@
 			(justify left bottom)
 		)
 		(uuid "801358a0-33d8-46b0-a4fc-1379cc45b88a")
+	)
+	(label "HOSW_DB"
+		(at 196.85 92.71 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "81130286-a80d-4ded-93d8-0e705034b70a")
 	)
 	(label "+USB_D"
 		(at 33.02 33.02 0)
@@ -14160,18 +14172,6 @@
 			(justify left bottom)
 		)
 		(uuid "962e855f-10de-4f12-8a96-9064abb02a64")
-	)
-	(label "CONFSW_DB"
-		(at 264.16 90.17 180)
-		(effects
-			(font
-				(size 0.635 0.635)
-				(thickness 0.127)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "97111126-0bad-4ac0-ba84-e0a97c556630")
 	)
 	(label "SERVOPWM6"
 		(at 198.12 152.4 180)
@@ -14433,6 +14433,18 @@
 		)
 		(uuid "cfde517f-a1eb-4df2-938b-f0ffb47e0ac2")
 	)
+	(label "CONFSW_DB"
+		(at 198.12 100.33 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "d04fb65d-2bb2-46b8-bc97-5e04fe126939")
+	)
 	(label "CHG_PGOOD"
 		(at 97.79 90.17 180)
 		(effects
@@ -14622,18 +14634,6 @@
 			(justify right bottom)
 		)
 		(uuid "f521a1d2-9bee-45f3-b2d5-e8c865298c2c")
-	)
-	(label "CONFSW"
-		(at 196.85 100.33 180)
-		(effects
-			(font
-				(size 0.635 0.635)
-				(thickness 0.127)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "fcfa57b0-b51c-49c8-adbc-9ef7bdafae34")
 	)
 	(label "USB_D+"
 		(at 67.31 33.02 0)
