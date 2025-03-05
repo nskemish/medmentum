@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\medmentum\application\build\windows\x64\CMakeFiles\324552d951edb6d676f030b323e971ab\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B51B2AC7-30BD-3702-955D-594401A86C37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
