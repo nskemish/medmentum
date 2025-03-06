@@ -8793,6 +8793,10 @@
 		(uuid "a7036a85-7989-4d69-8705-0fbc592ff69e")
 	)
 	(no_connect
+		(at 191.77 102.87)
+		(uuid "b29807d3-f3a0-4f7a-af07-d06f68296f79")
+	)
+	(no_connect
 		(at 16.51 31.75)
 		(uuid "b630e07b-a76a-4c09-8f02-5e2a52387ada")
 	)
@@ -12776,7 +12780,7 @@
 	)
 	(rectangle
 		(start 148.082 167.64)
-		(end 169.418 191.516)
+		(end 162.052 191.516)
 		(stroke
 			(width 0)
 			(type dash)
@@ -13694,7 +13698,7 @@
 		)
 		(uuid "2046ccaa-a320-43dc-a8d1-8df3f33ed333")
 	)
-	(label "-USB_D"
+	(label "USB_D-"
 		(at 33.02 30.48 0)
 		(effects
 			(font
@@ -14107,7 +14111,7 @@
 		)
 		(uuid "81130286-a80d-4ded-93d8-0e705034b70a")
 	)
-	(label "+USB_D"
+	(label "USB_D+"
 		(at 33.02 33.02 0)
 		(effects
 			(font
@@ -19118,82 +19122,14 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 163.83 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33f41449-bf62-4485-b37b-b8afb622b27d")
-		(property "Reference" "#PWR0116"
-			(at 163.83 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 163.83 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0c6a986-1f4d-4fa9-9dfd-b78c41ee48a6")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
 		(at 167.64 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3577cf00-0b25-49fc-a5c0-62a33997a004")
-		(property "Reference" "#PWR065"
+		(uuid "35004e2b-60a4-48d9-9c06-78291ae546c9")
+		(property "Reference" "#PWR07"
 			(at 167.64 50.8 0)
 			(effects
 				(font
@@ -19202,13 +19138,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 167.64 48.26 0)
+		(property "Value" "LGND"
+			(at 168.91 47.498 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -19239,12 +19175,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb14e6ba-105d-4976-aa37-900877420d8a")
+			(uuid "8873c2b5-07b7-47f9-bdc3-762a5d419b72")
 		)
 		(instances
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "#PWR065")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19717,73 +19653,6 @@
 			(project ""
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 149.86 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "406efa4d-c864-4d18-84b8-1c5f294dbe30")
-		(property "Reference" "#PWR061"
-			(at 156.21 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDHSC"
-			(at 153.67 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 149.86 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "010ca86b-9798-43be-92e2-325f4889b281")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -20355,71 +20224,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 163.83 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "473cbb17-d0ae-4e86-9e10-ed6eaaef0bb8")
-		(property "Reference" "#PWR0118"
-			(at 163.83 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDHSC"
-			(at 163.83 168.402 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 163.83 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78b9aa64-b2bf-4e27-bea6-3608acfc9952")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 78.74 55.88 0)
 		(unit 1)
@@ -20787,71 +20591,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 163.83 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "508c4c3e-5f0c-4594-b5f9-e9139fc65629")
-		(property "Reference" "#PWR0119"
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDLSC"
-			(at 163.83 179.832 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 163.83 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af662f8d-f22f-4103-a727-e6c5073193f6")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 148.59 154.94 180)
 		(unit 1)
@@ -21062,73 +20801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 29.21 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52fbd4b3-4d25-435e-b61b-6b4280008802")
-		(property "Reference" "#PWR07"
-			(at 29.21 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 29.21 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "080ca986-f885-4839-abc0-7b9344ecedac")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 64.77 132.08 0)
 		(unit 1)
@@ -21268,6 +20940,73 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 144.78 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56312a13-2320-425b-b7eb-6c2bf01dc045")
+		(property "Reference" "#PWR058"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 140.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c022dd7-848c-4433-a21b-2df248281229")
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -22473,73 +22212,6 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 144.78 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "668e8459-f80b-46ea-bb45-6b56aca3fe0a")
-		(property "Reference" "#PWR058"
-			(at 138.43 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDHSC"
-			(at 140.97 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e01799a-af9c-45ba-98a5-4e524735ee0f")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -24542,75 +24214,6 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 163.83 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "86bb515b-a7a9-4bc3-b376-ba1ad5c383ab")
-		(property "Reference" "NT2"
-			(at 164.592 173.228 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 164.592 174.498 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7a19c44b-f8f3-406b-b446-d076cb9e6c34")
-		)
-		(pin "1"
-			(uuid "36bb4bb0-443a-4768-bf4e-d4eeeef359e8")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -28278,8 +27881,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 147.828 93.472 0)
+		(property "Value" "1u"
+			(at 147.32 93.472 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -28287,7 +27890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.8148 91.44 0)
 			(effects
 				(font
@@ -28314,7 +27917,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSCPart" "C1779"
+		(property "LCSCPart" "C15849"
 			(at 144.78 95.25 0)
 			(effects
 				(font
@@ -28702,6 +28305,73 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 137.16 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0bf7fc1-87cd-4480-8991-6eb0ca91c57b")
+		(property "Reference" "#PWR055"
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 133.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bc037a8-ca0f-41c4-86d3-987eceefe48f")
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -29174,16 +28844,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 163.83 187.96 0)
+		(at 137.16 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bbb648aa-55ea-440b-a408-c720596e03b4")
-		(property "Reference" "#PWR0120"
-			(at 163.83 194.31 0)
+		(uuid "ba7bb664-208b-40c7-b3f5-f9b1b31e2b50")
+		(property "Reference" "#PWR054"
+			(at 130.81 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29192,7 +28862,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 163.83 191.77 0)
+			(at 133.35 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29201,7 +28871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 187.96 0)
+			(at 137.16 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29210,7 +28880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 187.96 0)
+			(at 137.16 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29219,7 +28889,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 163.83 187.96 0)
+			(at 137.16 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29228,12 +28898,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "53b93bcf-fa06-43a5-8129-1191705d1a1d")
+			(uuid "4ca35b82-fd3b-40c0-88f4-4f4b2fb7b642")
 		)
 		(instances
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "#PWR0120")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -31514,73 +31184,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 137.16 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d31f8bc0-4b87-41fd-b200-6ba94b0a550c")
-		(property "Reference" "#PWR054"
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDHSC"
-			(at 133.35 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 137.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16bc5e85-c1d3-445b-9b50-1f2c2f5fc68a")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
 		(at 160.02 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32723,75 +32326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 163.83 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "df8c5d8c-a7bb-4083-a19c-0b2677e8ba79")
-		(property "Reference" "NT3"
-			(at 164.592 184.658 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 164.592 185.928 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 163.83 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 163.83 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "75871df7-db21-4a8b-a836-a61ea9d61e41")
-		)
-		(pin "1"
-			(uuid "42971cce-4dde-4346-84bb-2a9f3f4d3221")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "NT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 134.62 81.28 180)
 		(unit 1)
@@ -33066,6 +32600,72 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 29.21 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e171eb02-0aca-4e0f-ae41-5b5749314f18")
+		(property "Reference" "#PWR0122"
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LGND"
+			(at 30.48 91.948 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 29.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5df2b057-a558-4d67-90a1-f87e88e9e2cd")
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -33669,6 +33269,73 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 149.86 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea23d6af-aef1-4223-a123-0d68536f2943")
+		(property "Reference" "#PWR061"
+			(at 156.21 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 153.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbffdfec-3f9c-4390-ac53-22ba872e537f")
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -34353,73 +34020,6 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 137.16 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6269eb3-def5-49a4-9da8-b2ce574b71fb")
-		(property "Reference" "#PWR055"
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDHSC"
-			(at 133.35 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 137.16 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "355297bf-7655-47f0-9a55-a16b36735246")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
