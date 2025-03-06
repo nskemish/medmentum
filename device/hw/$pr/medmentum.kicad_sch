@@ -13856,7 +13856,7 @@
 		)
 		(uuid "4b96c142-5549-4484-81c1-103784ad5f43")
 	)
-	(label "SW_BOOT0"
+	(label "SW_BOOTE0"
 		(at 259.08 46.99 180)
 		(effects
 			(font
@@ -18355,83 +18355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 245.11 46.99 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2dacd6f3-65fe-48d1-95e4-428c8eab9881")
-		(property "Reference" "R43"
-			(at 245.11 43.942 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 245.11 45.212 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 245.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 245.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSCPart" "C17477"
-			(at 245.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6bf7f4d-4213-4d15-88c3-ff76b36e1df2")
-		)
-		(pin "1"
-			(uuid "e40b80fd-c98c-428e-b0d0-6d4b62ff788b")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 87.63 50.8 90)
 		(unit 1)
@@ -19457,6 +19380,84 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39281898-57da-4dc1-bdda-cc6490139ef3")
+		(property "Reference" "R14"
+			(at 84.836 42.418 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 84.836 43.688 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 83.82 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPart" "C25744"
+			(at 83.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ef4c236-9076-491a-a81c-65a0aa38682b")
+		)
+		(pin "1"
+			(uuid "7083ad08-feae-41ef-9d05-bc29a4d2b0eb")
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -22066,82 +22067,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 85.09 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65c60664-f33c-4e33-9752-713d85e210db")
-		(property "Reference" "R15"
-			(at 85.09 42.672 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 85.09 43.942 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 85.09 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 85.09 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSCPart" "C17477"
-			(at 85.09 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cf2b371-a197-42db-b53c-13c70adc4db5")
-		)
-		(pin "2"
-			(uuid "c0f8505f-0f63-45c3-b412-91dc4977e8bd")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 138.43 91.44 90)
 		(unit 1)
@@ -22941,6 +22866,83 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 250.19 46.99 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76cb81ad-bc16-4d5a-a204-7ed22cb3e5eb")
+		(property "Reference" "R43"
+			(at 250.19 43.942 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 250.19 45.212 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 250.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 250.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPart" "C17477"
+			(at 250.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f959042a-b36d-4950-b3d2-67f49897ab09")
+		)
+		(pin "1"
+			(uuid "3ae427d8-f6ad-43f6-aca7-43fe1fa11edd")
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -24575,6 +24577,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 245.11 46.99 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bcb8141-cc94-42ac-bf61-89446046661f")
+		(property "Reference" "R46"
+			(at 245.11 43.942 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 245.11 45.212 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPart" "C25744"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffea4d40-1107-460d-a059-ddf8a65ce97d")
+		)
+		(pin "1"
+			(uuid "b5f72fbd-57dc-476c-b69a-d7b7aaa9bc1b")
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 264.16 157.48 0)
 		(mirror y)
@@ -25106,6 +25185,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 77.47 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91a668ec-a704-4f4c-9d8a-a8f9df441cc4")
+		(property "Reference" "R15"
+			(at 77.47 42.672 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 77.47 43.942 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPart" "C17477"
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23955b31-0a36-4e09-8ec6-42480d14658a")
+		)
+		(pin "2"
+			(uuid "661f7a32-0e34-450a-ac12-087de330208c")
+		)
+		(instances
+			(project "medmentum"
+				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 71.12 74.93 90)
 		(unit 1)
@@ -25313,84 +25468,6 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 78.74 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98d33200-8556-456a-87ac-dfa4229e953b")
-		(property "Reference" "R14"
-			(at 79.756 42.418 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 79.756 43.688 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 78.74 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSCPart" "C25744"
-			(at 78.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d89f417-7add-4c3a-8e44-305642c952e9")
-		)
-		(pin "1"
-			(uuid "06b63692-b1ff-43f7-836f-829488468ea7")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -28440,83 +28517,6 @@
 			(project "medmentum"
 				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 250.19 46.99 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3871388-30de-469c-b541-ce2cbdb86c59")
-		(property "Reference" "R46"
-			(at 250.19 43.942 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 250.19 45.212 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 250.19 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 250.19 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSCPart" "C25744"
-			(at 250.19 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "545f1f5a-b277-43de-bb78-206d095b3b2e")
-		)
-		(pin "1"
-			(uuid "27b8522b-e7d5-4232-b3bc-7217123979cb")
-		)
-		(instances
-			(project "medmentum"
-				(path "/ead52261-b3da-41ef-908f-3daaabe10954"
-					(reference "R46")
 					(unit 1)
 				)
 			)
