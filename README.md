@@ -1,5 +1,5 @@
 
-![MedMentum Project](misc/gh$assets/mmlogo.png)
+![MedMentum Project](img/gh$assets/mmlogo.png)
 
 ![Static Badge](https://img.shields.io/badge/MedMentum-2025-green)
 
