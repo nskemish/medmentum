@@ -1,4 +1,4 @@
-
+![medmentum](resources/visuals/png/other/github/readme.png)
 # MedMentum 🚀
 
 **MedMentum** je revolucionarni sistem za automatsko doziranje lekova, osmišljen da transformiše način na koji pacijenti i zdravstveni radnici pristupaju terapijama. Ovaj inovativni uređaj kombiniuje najsavremeniju tehnologiju sa intuitivnim dizajnom kako bi omogućio precizno, sigurno i jednostavno doziranje lekova. MedMentum ne samo da olakšava svakodnevno uzimanje terapija, već i smanjuje rizik od ljudskih grešaka, čineći medicinsku negu pouzdanijom i efikasnijom. 💊✨
