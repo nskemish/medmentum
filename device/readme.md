@@ -24,13 +24,17 @@ Ovaj folder sadrži sve fajlove i dokumentaciju vezanu za razvoj uređaja, uklju
 
 ## Kako koristiti ovaj folder
 
-### **Hardver**: Za pregled shematskih dijagrama i PCB dizajna, otvorite odgovarajuće fajlove u **`/hw`** folderu. Gerber fajlovi se mogu koristiti za naručivanje PCB-a.
+### **Hardver**: 
+Za pregled shematskih dijagrama i PCB dizajna, otvorite odgovarajuće fajlove u **`/hw`** folderu. 
+Gerber fajlovi se mogu koristiti za naručivanje PCB-a.
 > [!NOTE]
 > Za otvaranje ovih fajlova potrebno je imati najnoviju verziju [KiCad-a](https://www.kicad.org/).
 
-### **Mehanika**: 3D modeli i 2D crteži se nalaze u **`/mh`** folderu. STL fajlovi su spremni za 3D štampu.
+### **Mehanika**: 
+3D modeli i 2D crteži se nalaze u **`/mh`** folderu. STL fajlovi su spremni za 3D štampu.
 
-### **Firmware**: Izvorni kod firmware-a se nalazi u **`/fw/src`** folderu. Pratite uputstva u `readme.md` za kompilaciju i upload firmware-a na uređaj.
+### **Firmware**: 
+Izvorni kod firmware-a se nalazi u **`/fw/src`** folderu. Pratite uputstva u `readme.md` za kompilaciju i upload firmware-a na uređaj.
 
 ---
 
