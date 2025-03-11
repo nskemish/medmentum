@@ -1,8 +1,8 @@
 
 # 🇷🇸
 >[!IMPORTANT]
->U ovom folderu se nalazi isključivo dokumentacija.
+>**U ovom folderu se nalazi isključivo dokumentacija.**
 
 # 🇬🇧
 >[!IMPORTANT]
->This folder contains only documentation.
+>**This folder contains only documentation.**
