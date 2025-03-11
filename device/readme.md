@@ -12,7 +12,7 @@ Ovaj folder sadrži sve fajlove i dokumentaciju vezanu za razvoj uređaja, uklju
 
 - **/mh**: Sadrži fajlove vezane za mehanički dizajn uređaja.
   - `step/` - Modeli mehaničkih dijelova.
-  - `elev/` - Kote dimenzija modela
+  - `elev/` - Kote dimenzija modela.
   - `stl/` - STL fajlovi za 3D štampu.
 
 - **/fw**: Sadrži izvorni kod i dokumentaciju za firmware uređaja.
@@ -32,7 +32,7 @@ Ovaj folder sadrži sve fajlove i dokumentaciju vezanu za razvoj uređaja, uklju
 
 4. **Firmware**: Izvorni kod firmware-a se nalazi u **`/fw/src`** folderu. Pratite uputstva u `readme.md` za kompilaciju i upload firmware-a na uređaj.
 
-## Kontakt
+---
 
 Za sva pitanja ili dodatne informacije, kontaktirajte:
 
