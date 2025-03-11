@@ -13599,7 +13599,7 @@
 		)
 		(uuid "0eaf7763-13a5-4f17-bea9-df4613aa4c98")
 	)
-	(label "USB_D-"
+	(label "USB_DOUT-"
 		(at 67.31 30.48 0)
 		(effects
 			(font
@@ -14639,7 +14639,7 @@
 		)
 		(uuid "f521a1d2-9bee-45f3-b2d5-e8c865298c2c")
 	)
-	(label "USB_D+"
+	(label "USB_DOUT+"
 		(at 67.31 33.02 0)
 		(effects
 			(font
@@ -22703,7 +22703,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSCPart" "C5371778"
+		(property "LCSCPart" "C2988620"
 			(at 85.09 143.51 0)
 			(effects
 				(font
