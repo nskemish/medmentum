@@ -1,4 +1,6 @@
 ---
-### U ovom folderu se nalazi isključivo promotivni materijal.
-### This folder contains only promotional material.
+# 🇷🇸
+# U ovom folderu se nalazi isključivo promotivni materijal.
+# 🇬🇧
+# This folder contains only promotional material.
 ---
