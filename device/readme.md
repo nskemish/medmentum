@@ -37,7 +37,7 @@ Ovaj folder sadrži sve fajlove i dokumentaciju vezanu za razvoj uređaja, uklju
 Za sva pitanja ili dodatne informacije, kontaktirajte:
 
 - **Ognjen Guteša**  
-  heyognjen@icloud.com | +381 63 532178
+  heyognjen@icloud.com  |  +381 63 532178
 
 ---
 > [!WARNING]
