@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive BOM for KiCAD</title>
+  <title>MedMentum Interaktivni BOM</title>
   <style type="text/css">
 :root {
   --pcb-edge-color: black;
@@ -3934,10 +3934,10 @@ function changeCanvasLayout(layout) {
 }
 
 function populateMetadata() {
-  document.getElementById("title").innerHTML = pcbdata.metadata.title;
-  document.getElementById("revision").innerHTML = "Rev: " + pcbdata.metadata.revision;
+  document.getElementById("title").innerHTML = 'MedMentum Interaktivni "Bill-Of-Materials"';
+  document.getElementById("revision").innerHTML = "";
   document.getElementById("company").innerHTML = pcbdata.metadata.company;
-  document.getElementById("filedate").innerHTML = pcbdata.metadata.date;
+  document.getElementById("filedate").innerHTML = "";
   if (pcbdata.metadata.title != "") {
     document.title = pcbdata.metadata.title + " BOM";
   }
@@ -3979,8 +3979,7 @@ function populateMetadata() {
   document.getElementById("stats-smd-pads-total").innerHTML = pads_f + pads_b;
   document.getElementById("stats-th-pads").innerHTML = pads_th;
   // Update version string
-  document.getElementById("github-link").innerHTML = "InteractiveHtmlBom&nbsp;" +
-    /^v\d+\.\d+/.exec(pcbdata.ibom_version)[0];
+  document.getElementById("github-link").innerHTML = "MedMentum GitHub"
 }
 
 function changeBomLayout(layout) {
@@ -4416,92 +4415,92 @@ window.matchMedia("print").addListener(resizeAll);
         <div class="menu-content">
           <label class="menu-label menu-label-top" style="width: calc(50% - 18px)">
             <input id="darkmodeCheckbox" type="checkbox" onchange="setDarkMode(this.checked)">
-            Dark mode
+            Tamni režim
           </label><!-- This comment eats space! All of it!
           --><label class="menu-label menu-label-top" style="width: calc(50% - 17px); border-left: 0;">
             <input id="fullscreenCheckbox" type="checkbox" onchange="setFullscreen(this.checked)">
-            Full Screen
+            Ceo ekran
           </label>
           <label class="menu-label" style="width: calc(50% - 18px)">
             <input id="fabricationCheckbox" type="checkbox" checked onchange="fabricationVisible(this.checked)">
-            Fab layer
+            Fab sloj
           </label><!-- This comment eats space! All of it!
           --><label class="menu-label" style="width: calc(50% - 17px); border-left: 0;">
             <input id="silkscreenCheckbox" type="checkbox" checked onchange="silkscreenVisible(this.checked)">
-            Silkscreen
+            Sitotisak
           </label>
           <label class="menu-label" style="width: calc(50% - 18px)">
             <input id="referencesCheckbox" type="checkbox" checked onchange="referencesVisible(this.checked)">
-            References
+            Reference
           </label><!-- This comment eats space! All of it!
           --><label class="menu-label" style="width: calc(50% - 17px); border-left: 0;">
             <input id="valuesCheckbox" type="checkbox" checked onchange="valuesVisible(this.checked)">
-            Values
+            Vrednosti
           </label>
           <div id="tracksAndZonesCheckboxes">
             <label class="menu-label" style="width: calc(50% - 18px)">
               <input id="tracksCheckbox" type="checkbox" checked onchange="tracksVisible(this.checked)">
-              Tracks
+              Spojevi
             </label><!-- This comment eats space! All of it!
             --><label class="menu-label" style="width: calc(50% - 17px); border-left: 0;">
               <input id="zonesCheckbox" type="checkbox" checked onchange="zonesVisible(this.checked)">
-              Zones
+              Zone
             </label>
           </div>
           <label class="menu-label" style="width: calc(50% - 18px)">
             <input id="padsCheckbox" type="checkbox" checked onchange="padsVisible(this.checked)">
-            Pads
+            Kontakti
           </label><!-- This comment eats space! All of it!
           --><label class="menu-label" style="width: calc(50% - 17px); border-left: 0;">
             <input id="dnpOutlineCheckbox" type="checkbox" checked onchange="dnpOutline(this.checked)">
-            DNP outlined
+            DNP
           </label>
           <label class="menu-label">
             <input id="dragCheckbox" type="checkbox" checked onchange="setRedrawOnDrag(this.checked)">
-            Continuous redraw on drag
+            Osveži na povučeno
           </label>
           <label class="menu-label">
-            Highlight first pin
+            Obeleži prvi pin
             <form id="highlightpin1">
               <div class="flexbox">
                 <label>
                   <input type="radio" name="highlightpin1" value="none" onchange="setHighlightPin1('none')">
-                  None
+                  Nijedan
                 </label>
                 <label>
                   <input type="radio" name="highlightpin1" value="all" onchange="setHighlightPin1('all')">
-                  All
+                  Svih
                 </label>
                 <label>
                   <input type="radio" name="highlightpin1" value="selected" onchange="setHighlightPin1('selected')">
-                  Selected
+                  Selektovane
                 </label>
               </div>
             </form>
           </label>
           <label class="menu-label">
-            <span>Board rotation</span>
+            <span>Rotacija ploče</span>
             <span style="float: right"><span id="rotationDegree">0</span>&#176;</span>
             <input id="boardRotation" type="range" min="-36" max="36" value="0" class="slider" oninput="setBoardRotation(this.value)">
           </label>
           <label class="menu-label">
             <input id="offsetBackRotationCheckbox" type="checkbox" onchange="setOffsetBackRotation(this.checked)">
-            Offset back rotation
+              Obrni pogled zadnje strane
           </label>
           <label class="menu-label">
-            <div style="margin-left: 5px">Bom checkboxes</div>
+            <div style="margin-left: 5px">Potvrda BOM polja</div>
             <input id="bomCheckboxes" class="menu-textbox" type=text
                    oninput="setBomCheckboxes(this.value)">
           </label>
           <label class="menu-label">
-            <div style="margin-left: 5px">Mark when checked</div>
+            <div style="margin-left: 5px">Obeleži kada se čekira</div>
             <div id="markWhenCheckedContainer"></div>
           </label>
           <label class="menu-label">
             <span class="shameless-plug">
-              <span>Created using</span>
-              <a id="github-link" target="blank" href="https://github.com/openscopeproject/InteractiveHtmlBom">InteractiveHtmlBom</a>
-              <a target="blank" title="Mouse and keyboard help" href="https://github.com/openscopeproject/InteractiveHtmlBom/wiki/Usage#bom-page-mouse-actions" style="text-decoration: none;"><label class="help-link">?</label></a>
+              <span>MedMentum projekat: </span>
+              <a id="github-link" target="blank" href="https://github.com/nskemish/medmentum">MedMentum</a>
+              
             </span>
           </label>
         </div>
