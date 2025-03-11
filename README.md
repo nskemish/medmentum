@@ -1,9 +1,19 @@
 <p align="center">
-  <img src="resources/visuals/png/other/github/readme.png"/>
+  <img src="resources/visuals/png/other/github/readme.png"/ width="200" height="200">
 </p>
+<div align="center" id="toc">
+  <ul style="list-style: none">
+    <summary>
+      <h1>MedMentum</h1><br>
+      <h3 align="center">Automatski dozer za lekove</h3>
+    </summary>
+  </ul>
+</div>
+
 
 ---
 
+# Šta je to MedMentum?
 **MedMentum** je revolucionarni sistem za automatsko doziranje lekova, osmišljen da transformiše način na koji pacijenti i zdravstveni radnici pristupaju terapijama. Ovaj inovativni uređaj kombiniuje najsavremeniju tehnologiju sa intuitivnim dizajnom kako bi omogućio precizno, sigurno i jednostavno doziranje lekova. MedMentum ne samo da olakšava svakodnevno uzimanje terapija, već i smanjuje rizik od ljudskih grešaka, čineći medicinsku negu pouzdanijom i efikasnijom. 💊✨
 
 ## Naša misija 
