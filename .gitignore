@@ -1,3 +1,6 @@
 *.kicad_prl
 *.lck
 *.bak
+fp-fp-info-cache
+fp-lib-table
+fabrication-toolkit-options.json
