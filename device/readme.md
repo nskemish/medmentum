@@ -26,7 +26,7 @@ Ovaj folder sadrži sve fajlove i dokumentaciju vezanu za razvoj uređaja, uklju
 
 1. **Hardver**: Za pregled shematskih dijagrama i PCB dizajna, otvorite odgovarajuće fajlove u **`/hw`** folderu. Gerber fajlovi se mogu koristiti za naručivanje PCB-a.
 > ![NOTE]
->Za otvaranje ovih fajlova potrebno je imati najnoviju verziju [KiCad-a](https://www.kicad.org/).
+> Za otvaranje ovih fajlova potrebno je imati najnoviju verziju [KiCad-a](https://www.kicad.org/).
 
 3. **Mehanika**: 3D modeli i 2D crteži se nalaze u **`/mh`** folderu. STL fajlovi su spremni za 3D štampu.
 
@@ -36,10 +36,9 @@ Ovaj folder sadrži sve fajlove i dokumentaciju vezanu za razvoj uređaja, uklju
 
 Za sva pitanja ili dodatne informacije, kontaktirajte:
 
-- **Ime Prezime**  
-  Email: heyognjen@icloud.com  
-  Telefon: +381 63 532178
+- **Ognjen Guteša**  
+  heyognjen@icloud.com | +381 63 532178
 
 ---
->![WARNING]
->Ova dokumentacija je u razvoju i može biti ažurirana tokom projekta.
+> ![WARNING]
+> Ova dokumentacija je u razvoju i može biti ažurirana tokom projekta.
