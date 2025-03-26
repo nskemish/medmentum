@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <title>MedMentum</title>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+  <style>
+    * {
+      font-family: "Poppins", sans-serif;
+      box-sizing: border-box;
+    }
+    body {
+      user-select: none;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #E5EEEF;
+      height: 100vh;
+      margin: 0;
+    }
+    .logpage {
+      background: #9ABEC1;
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+      border-radius: 30px;
+      box-shadow: 0 0 2em #71A2A8;
+      gap: 2em;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+    }
+    .ssid,
+    .password {
+      background: white;
+      box-shadow: 0 0 1em #e6e9f9;
+      padding: 1em;
+      display: flexbox;
+      flex-direction: column;
+      gap: 0.5em;
+      border-radius: 20px;
+      color: #4d4d4d;
+    }
+    .ssid input,
+    .password input {
+      outline: none;
+      border: none;
+    }
+    .connectbtn {
+    position: relative;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    background-color: #46878F;
+    padding: 15px 50px;
+    border-radius: 5rem;
+    box-shadow: 1px 2.9px 16px #e6e9f9;
+    transition: 0.6s cubic-bezier(0.01, 1.69, 0.99, 0.94);
+    }
+    .connectbtn:hover {
+    box-shadow: 3px 4.9px 16px #e6e9f9;
+    letter-spacing: 5px;
+    }
+    .connectbtn--clicked {
+    transition: 0.6s cubic-bezier(0.01, 1.69, 0.99, 0.94);
+    padding: 15px 2px;
+    width: 50px;
+    color: transparent;
+    z-index: -10;
+    }
+    .color {
+    position: absolute;
+    display: flex;
+    width: 0;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.8s ease;
+    border-radius: 50%;
+    background-color: transparent;
+    }
+    .expanded {
+    width: 1000%;
+    padding-bottom: 1000%;
+    height: auto;
+    }
+
+    .color--bluedark {
+    background-color: #46878F;
+    transition-delay: 0.12s;
+    }
+
+    .color--blue {
+    background-color: #71A2A8;
+    transition-delay: 0.25s;
+    }
+
+    .color--bluelight {
+    background-color: #9ABEC1;
+    transition-delay: 0.5s;
+    }
+
+    /* Poruka koja se pojavljuje */
+    .deviceconnected {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: white;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 15;
+      text-align: center;
+      white-space: nowrap;
+    }
+    .deviceconnected.visible {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+    .closepage {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: white;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+      position: fixed;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 15;
+      text-align: center;
+      white-space: nowrap;
+    }
+    .closepage.visible {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+    .image {
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    filter: invert(23%) sepia(48%) saturate(1823%) hue-rotate(153deg) brightness(95%) contrast(101%);
+    }
+  </style>
+
+</head>
+<body>
+  <div class="logpage">
+    <object type="image/svg+xml" data="image.svg" class="image"></object>
+    <div class="ssid">
+      <label for="ssid">Ime Vaše WiFi mreže</label>
+      <div>
+        <ion-icon name="WiFi"></ion-icon>
+        <input type="text" name="ssid" id="ssid" placeholder="">
+      </div>
+    </div>
+    <div class="password">
+      <label for="password">Šifra Vaše WiFi mreže</label>
+      <div>
+        <ion-icon name="lock-closed-outline"></ion-icon>
+        <input class="pas" type="text" name="password" id="password" placeholder="">
+      </div>
+    </div>
+    <div class="connect">
+        <a class="connectbtn" href="" title="">Poveži se</a>
+        <span class="color color--bluedark" data-value="1"></span>
+        <span class="color color--blue" data-value="1"></span>
+        <span class="color color--bluelight" data-value="1"></span>
+    </div>
+  </div>
+
+  <!-- Overlay i poruka van screen-1 da pokriju ceo ekran -->
+  <div class="overlay" id="overlay"></div>
+  <div class="deviceconnected" id="deviceconnected">Vaš uređaj je uspešno povezan!</div>
+  <div class="closepage" id="closepage">Možete zatvoriti ovu stranicu. </div>
+
+  <script>
+
+    const button = document.querySelector('.connectbtn');
+    const deviceconnected = document.getElementById('deviceconnected');
+    const closepage = document.getElementById('closepage');
+
+    button.addEventListener('click',(e)=>{
+    e.preventDefault();
+    
+    // Pomerite ove linije unutar event listenera
+    const ssid = document.getElementById("ssid").value;
+    const password = document.getElementById("password").value;
+    
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", "/submit", true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            console.log("Odgovor sa ESP32:", xhr.responseText);
+        }
+    };
+    
+    xhr.send(`ssid=${encodeURIComponent(ssid)}&password=${encodeURIComponent(password)}`);
+    
+    button.classList.add('connectbtn--clicked');
+    document.querySelectorAll('span').forEach((element)=>{element.classList.add('expanded')})
+    
+    setTimeout(() => { deviceconnected.classList.add('visible'); }, 1000);
+    setTimeout(() => { closepage.classList.add('visible'); }, 2000);
+});
+  </script>
+</body>
+</html>
