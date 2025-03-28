@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "medmentum",
-    "project_version":    "bdd45e1-dirty",
+    "project_version":    "d77ee75-dirty",
     "project_path":       "C:/medmentum/device/fw/esp/src",
     "idf_path":           "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf",
     "build_dir":          "C:/medmentum/device/fw/esp/src/build",
@@ -21,12 +21,12 @@
     "monitor_toolprefix": "xtensa-esp32-elf-",
     "c_compiler":         "C:/Users/Administrator/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe",
     "config_environment" : {
-        "COMPONENT_KCONFIGS" : "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/app_trace/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/bt/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/console/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/driver/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/efuse/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp-tls/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_adc/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_coex/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_common/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_ana_cmpr/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_cam/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_dac/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_gpio/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_gptimer/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_i2c/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_i2s/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_isp/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_jpeg/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_ledc/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_mcpwm/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_parlio/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_pcnt/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_rmt/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_sdm/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_spi/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_touch_sens/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_tsens/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_uart/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_eth/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_event/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_gdbstub/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_http_client/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_http_server/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_https_ota/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_https_server/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_hw_support/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_lcd/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_mm/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_netif/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_partition/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_phy/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_pm/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_psram/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_ringbuf/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_security/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_system/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_timer/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_wifi/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/espcoredump/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/fatfs/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/freertos/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/hal/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/heap/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/ieee802154/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/log/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/lwip/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mbedtls/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mqtt/esp-mqtt/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/newlib/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/nvs_flash/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/nvs_sec_provider/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/openthread/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/protocomm/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/pthread/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/soc/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spi_flash/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spiffs/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/tcp_transport/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/ulp/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/unity/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/usb/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/vfs/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wear_levelling/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/Kconfig",
+        "COMPONENT_KCONFIGS" : "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/app_trace/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/bt/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/console/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/driver/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/efuse/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp-tls/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_adc/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_coex/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_common/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_ana_cmpr/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_cam/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_dac/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_gpio/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_gptimer/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_i2c/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_i2s/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_isp/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_jpeg/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_ledc/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_mcpwm/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_parlio/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_pcnt/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_rmt/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_sdm/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_spi/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_touch_sens/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_tsens/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_uart/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_eth/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_event/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_gdbstub/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_http_client/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_http_server/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_https_ota/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_https_server/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_hw_support/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_lcd/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_mm/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_netif/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_partition/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_phy/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_pm/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_psram/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_ringbuf/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_security/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_system/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_timer/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_wifi/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/espcoredump/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/fatfs/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/freertos/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/hal/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/heap/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/ieee802154/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/log/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/lwip/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mbedtls/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/newlib/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/nvs_flash/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/nvs_sec_provider/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/openthread/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/protocomm/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/pthread/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/soc/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spi_flash/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spiffs/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/tcp_transport/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/ulp/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/unity/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/usb/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/vfs/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wear_levelling/Kconfig;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/Kconfig;C:/medmentum/device/fw/esp/src/components/mqttlibs/Kconfig",
         "COMPONENT_KCONFIGS_PROJBUILD" : "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/bootloader/Kconfig.projbuild;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_app_format/Kconfig.projbuild;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_rom/Kconfig.projbuild;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esptool_py/Kconfig.projbuild;C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
-    "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "captiveportal", "cmock", "console", "cxx", "display", "dns_server", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_cam", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_isp", "esp_driver_jpeg", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_ppa", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_touch_sens", "esp_driver_tsens", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "rt", "sdmmc", "servoconn", "soc", "spi_flash", "spiffs", "tcp_transport", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_provisioning", "wificonn", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/app_trace", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/app_update", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/bootloader", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/bootloader_support", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/bt", "C:/medmentum/device/fw/esp/src/components/captiveportal", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/cmock", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/console", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/cxx", "C:/medmentum/device/fw/esp/src/components/display", "C:/medmentum/device/fw/esp/src/components/dns_server", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/driver", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/efuse", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp-tls", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_adc", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_app_format", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_bootloader_format", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_coex", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_common", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_ana_cmpr", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_cam", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_dac", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_gpio", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_gptimer", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_i2c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_i2s", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_isp", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_jpeg", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_ledc", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_mcpwm", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_parlio", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_pcnt", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_ppa", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_rmt", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_sdio", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_sdm", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_sdmmc", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_sdspi", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_spi", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_touch_sens", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_tsens", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_uart", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_usb_serial_jtag", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_eth", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_event", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_gdbstub", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_hid", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_http_client", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_http_server", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_https_ota", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_https_server", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_hw_support", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_lcd", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_local_ctrl", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_mm", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_netif", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_netif_stack", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_partition", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_phy", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_pm", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_psram", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_ringbuf", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_rom", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_security", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_system", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_timer", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_vfs_console", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_wifi", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/espcoredump", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esptool_py", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/fatfs", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/freertos", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/hal", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/heap", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/http_parser", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/idf_test", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/ieee802154", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/json", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/log", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/lwip", "C:/medmentum/device/fw/esp/src/main", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mbedtls", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mqtt", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/newlib", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/nvs_flash", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/nvs_sec_provider", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/openthread", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/partition_table", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/perfmon", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/protobuf-c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/protocomm", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/pthread", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/rt", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/sdmmc", "C:/medmentum/device/fw/esp/src/components/servoconn", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/soc", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spi_flash", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spiffs", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/tcp_transport", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/ulp", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/unity", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/usb", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/vfs", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wear_levelling", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning", "C:/medmentum/device/fw/esp/src/components/wificonn", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wpa_supplicant", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/xtensa", "" ],
+    "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "captiveportal", "cmock", "console", "cxx", "display", "dns_server", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_cam", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_isp", "esp_driver_jpeg", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_ppa", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_touch_sens", "esp_driver_tsens", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "json", "log", "lwip", "main", "mbedtls", "mqtt", "mqttlibs", "newlib", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "rt", "sdmmc", "servotask", "soc", "spi_flash", "spiffs", "taskengine", "tcp_transport", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_provisioning", "wifitask", "wpa_supplicant", "xtensa", "" ],
+    "build_component_paths" : [ "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/app_trace", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/app_update", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/bootloader", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/bootloader_support", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/bt", "C:/medmentum/device/fw/esp/src/components/captiveportal", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/cmock", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/console", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/cxx", "C:/medmentum/device/fw/esp/src/components/display", "C:/medmentum/device/fw/esp/src/components/dns_server", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/driver", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/efuse", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp-tls", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_adc", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_app_format", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_bootloader_format", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_coex", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_common", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_ana_cmpr", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_cam", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_dac", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_gpio", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_gptimer", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_i2c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_i2s", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_isp", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_jpeg", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_ledc", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_mcpwm", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_parlio", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_pcnt", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_ppa", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_rmt", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_sdio", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_sdm", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_sdmmc", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_sdspi", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_spi", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_touch_sens", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_tsens", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_uart", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_driver_usb_serial_jtag", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_eth", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_event", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_gdbstub", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_hid", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_http_client", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_http_server", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_https_ota", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_https_server", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_hw_support", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_lcd", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_local_ctrl", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_mm", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_netif", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_netif_stack", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_partition", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_phy", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_pm", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_psram", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_ringbuf", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_rom", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_security", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_system", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_timer", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_vfs_console", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esp_wifi", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/espcoredump", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/esptool_py", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/fatfs", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/freertos", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/hal", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/heap", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/http_parser", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/idf_test", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/ieee802154", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/json", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/log", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/lwip", "C:/medmentum/device/fw/esp/src/main", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mbedtls", "C:/medmentum/device/fw/esp/src/components/mqtt", "C:/medmentum/device/fw/esp/src/components/mqttlibs", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/newlib", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/nvs_flash", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/nvs_sec_provider", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/openthread", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/partition_table", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/perfmon", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/protobuf-c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/protocomm", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/pthread", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/rt", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/sdmmc", "C:/medmentum/device/fw/esp/src/components/servotask", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/soc", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spi_flash", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spiffs", "C:/medmentum/device/fw/esp/src/components/taskengine", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/tcp_transport", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/ulp", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/unity", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/usb", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/vfs", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wear_levelling", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning", "C:/medmentum/device/fw/esp/src/components/wifitask", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wpa_supplicant", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "app_trace": {
             "alias": "idf::app_trace",
@@ -111,11 +111,11 @@
             "type": "LIBRARY",
             "lib": "__idf_captiveportal",
             "reqs": [],
-            "priv_reqs": [ "esp_wifi", "dns_server", "nvs_flash", "esp_http_server", "esp_https_server" ],
+            "priv_reqs": [ "esp_wifi", "nvs_flash", "esp_http_server", "esp_https_server", "dns_server" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/medmentum/device/fw/esp/src/build/esp-idf/captiveportal/libcaptiveportal.a",
-            "sources": [ "C:/medmentum/device/fw/esp/src/components/captiveportal/captiveportal.c", "C:/medmentum/device/fw/esp/src/build/index.html.S", "C:/medmentum/device/fw/esp/src/build/image.svg.S", "C:/medmentum/device/fw/esp/src/build/servercert.pem.S", "C:/medmentum/device/fw/esp/src/build/prvtkey.pem.S" ],
+            "sources": [ "C:/medmentum/device/fw/esp/src/components/captiveportal/captiveportal.c", "C:/medmentum/device/fw/esp/src/build/index.html.S", "C:/medmentum/device/fw/esp/src/build/image.svg.S" ],
             "include_dirs": [ "include" ]
         },
         "cmock": {
@@ -191,7 +191,7 @@
             "managed_priv_reqs": [],
             "file": "C:/medmentum/device/fw/esp/src/build/esp-idf/dns_server/libdns_server.a",
             "sources": [ "C:/medmentum/device/fw/esp/src/components/dns_server/dns_server.c" ],
-            "include_dirs": [ "include" ]
+            "include_dirs": [ "libs" ]
         },
         "driver": {
             "alias": "idf::driver",
@@ -1236,7 +1236,7 @@
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [],
-            "priv_reqs": [ "spi_flash", "captiveportal", "nvs_flash", "wificonn", "servoconn" ],
+            "priv_reqs": [ "spi_flash", "captiveportal", "nvs_flash", "taskengine" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/medmentum/device/fw/esp/src/build/esp-idf/main/libmain.a",
@@ -1262,16 +1262,31 @@
             "alias": "idf::mqtt",
             "target": "___idf_mqtt",
             "prefix": "idf",
-            "dir": "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mqtt",
+            "dir": "C:/medmentum/device/fw/esp/src/components/mqtt",
             "type": "LIBRARY",
             "lib": "__idf_mqtt",
+            "reqs": [],
+            "priv_reqs": [ "nvs_flash", "esp_event", "mqttlibs", "esp_netif" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "C:/medmentum/device/fw/esp/src/build/esp-idf/mqtt/libmqtt.a",
+            "sources": [ "C:/medmentum/device/fw/esp/src/components/mqtt/mqtt.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "mqttlibs": {
+            "alias": "idf::mqttlibs",
+            "target": "___idf_mqttlibs",
+            "prefix": "idf",
+            "dir": "C:/medmentum/device/fw/esp/src/components/mqttlibs",
+            "type": "LIBRARY",
+            "lib": "__idf_mqttlibs",
             "reqs": [ "esp_event", "tcp_transport" ],
             "priv_reqs": [ "esp_timer", "http_parser", "esp_hw_support", "heap" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/medmentum/device/fw/esp/src/build/esp-idf/mqtt/libmqtt.a",
-            "sources": [ "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_msg.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_outbox.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mqtt/esp-mqtt/lib/platform_esp32_idf.c" ],
-            "include_dirs": [ "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mqtt/esp-mqtt/include" ]
+            "file": "C:/medmentum/device/fw/esp/src/build/esp-idf/mqttlibs/libmqttlibs.a",
+            "sources": [ "C:/medmentum/device/fw/esp/src/components/mqttlibs/mqtt_client.c", "C:/medmentum/device/fw/esp/src/components/mqttlibs/lib/mqtt_msg.c", "C:/medmentum/device/fw/esp/src/components/mqttlibs/lib/mqtt_outbox.c", "C:/medmentum/device/fw/esp/src/components/mqttlibs/lib/platform_esp32_idf.c" ],
+            "include_dirs": [ "C:/medmentum/device/fw/esp/src/components/mqttlibs/include" ]
         },
         "newlib": {
             "alias": "idf::newlib",
@@ -1438,19 +1453,19 @@
             "sources": [ "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/sdmmc/sdmmc_cmd.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/sdmmc/sdmmc_common.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/sdmmc/sdmmc_init.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/sdmmc/sdmmc_io.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/sdmmc/sdmmc_mmc.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/sdmmc/sdmmc_sd.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/sdmmc/sd_pwr_ctrl/sd_pwr_ctrl.c" ],
             "include_dirs": [ "include" ]
         },
-        "servoconn": {
-            "alias": "idf::servoconn",
-            "target": "___idf_servoconn",
+        "servotask": {
+            "alias": "idf::servotask",
+            "target": "___idf_servotask",
             "prefix": "idf",
-            "dir": "C:/medmentum/device/fw/esp/src/components/servoconn",
+            "dir": "C:/medmentum/device/fw/esp/src/components/servotask",
             "type": "LIBRARY",
-            "lib": "__idf_servoconn",
+            "lib": "__idf_servotask",
             "reqs": [ "driver" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/medmentum/device/fw/esp/src/build/esp-idf/servoconn/libservoconn.a",
-            "sources": [ "C:/medmentum/device/fw/esp/src/components/servoconn/src/servoconn.c" ],
+            "file": "C:/medmentum/device/fw/esp/src/build/esp-idf/servotask/libservotask.a",
+            "sources": [ "C:/medmentum/device/fw/esp/src/components/servotask/src/servotask.c" ],
             "include_dirs": [ "include", "include/driver" ]
         },
         "soc": {
@@ -1496,6 +1511,21 @@
             "managed_priv_reqs": [],
             "file": "C:/medmentum/device/fw/esp/src/build/esp-idf/spiffs/libspiffs.a",
             "sources": [ "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spiffs/spiffs_api.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spiffs/spiffs/src/spiffs_cache.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spiffs/spiffs/src/spiffs_check.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spiffs/spiffs/src/spiffs_gc.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spiffs/spiffs/src/spiffs_hydrogen.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/spiffs/esp_spiffs.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "taskengine": {
+            "alias": "idf::taskengine",
+            "target": "___idf_taskengine",
+            "prefix": "idf",
+            "dir": "C:/medmentum/device/fw/esp/src/components/taskengine",
+            "type": "LIBRARY",
+            "lib": "__idf_taskengine",
+            "reqs": [],
+            "priv_reqs": [ "captiveportal", "mqtt", "wifitask", "servotask" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "C:/medmentum/device/fw/esp/src/build/esp-idf/taskengine/libtaskengine.a",
+            "sources": [ "C:/medmentum/device/fw/esp/src/components/taskengine/taskengine.c" ],
             "include_dirs": [ "include" ]
         },
         "tcp_transport": {
@@ -1603,19 +1633,19 @@
             "sources": [ "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/src/wifi_config.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/src/wifi_scan.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/src/wifi_ctrl.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/src/manager.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/src/handlers.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/src/scheme_console.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/proto-c/wifi_config.pb-c.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/proto-c/wifi_scan.pb-c.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/proto-c/wifi_ctrl.pb-c.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/proto-c/wifi_constants.pb-c.c", "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/src/scheme_softap.c" ],
             "include_dirs": [ "include" ]
         },
-        "wificonn": {
-            "alias": "idf::wificonn",
-            "target": "___idf_wificonn",
+        "wifitask": {
+            "alias": "idf::wifitask",
+            "target": "___idf_wifitask",
             "prefix": "idf",
-            "dir": "C:/medmentum/device/fw/esp/src/components/wificonn",
+            "dir": "C:/medmentum/device/fw/esp/src/components/wifitask",
             "type": "LIBRARY",
-            "lib": "__idf_wificonn",
+            "lib": "__idf_wifitask",
             "reqs": [],
             "priv_reqs": [ "captiveportal", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/medmentum/device/fw/esp/src/build/esp-idf/wificonn/libwificonn.a",
-            "sources": [ "C:/medmentum/device/fw/esp/src/components/wificonn/wificonn.c" ],
+            "file": "C:/medmentum/device/fw/esp/src/build/esp-idf/wifitask/libwifitask.a",
+            "sources": [ "C:/medmentum/device/fw/esp/src/components/wifitask/wifitask.c" ],
             "include_dirs": [ "include" ]
         },
         "wpa_supplicant": {
@@ -2602,13 +2632,13 @@
             "alias": "idf::mqtt",
             "target": "___idf_mqtt",
             "prefix": "idf",
-            "dir": "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mqtt",
+            "dir": "C:/medmentum/device/fw/esp/src/components/mqtt",
             "lib": "__idf_mqtt",
-            "reqs": [ "esp_event", "tcp_transport" ],
-            "priv_reqs": [ "esp_timer", "http_parser", "esp_hw_support", "heap" ],
+            "reqs": [],
+            "priv_reqs": [ "nvs_flash", "esp_event", "mqttlibs", "esp_netif" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mqtt/esp-mqtt/include" ]
+            "include_dirs": [ "include" ]
         },
         "newlib": {
             "alias": "idf::newlib",
@@ -2917,7 +2947,7 @@
             "dir": "C:/medmentum/device/fw/esp/src/main",
             "lib": "__idf_main",
             "reqs": [],
-            "priv_reqs": [ "spi_flash", "captiveportal", "nvs_flash", "wificonn", "servoconn" ],
+            "priv_reqs": [ "spi_flash", "captiveportal", "nvs_flash", "taskengine" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "." ]
@@ -2929,7 +2959,7 @@
             "dir": "C:/medmentum/device/fw/esp/src/components/captiveportal",
             "lib": "__idf_captiveportal",
             "reqs": [],
-            "priv_reqs": [ "esp_wifi", "dns_server", "nvs_flash", "esp_http_server", "esp_https_server" ],
+            "priv_reqs": [ "esp_wifi", "nvs_flash", "esp_http_server", "esp_https_server", "dns_server" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -2956,26 +2986,50 @@
             "priv_reqs": [ "esp_netif" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include" ]
+            "include_dirs": [ "libs" ]
         },
-        "servoconn": {
-            "alias": "idf::servoconn",
-            "target": "___idf_servoconn",
+        "mqttlibs": {
+            "alias": "idf::mqttlibs",
+            "target": "___idf_mqttlibs",
             "prefix": "idf",
-            "dir": "C:/medmentum/device/fw/esp/src/components/servoconn",
-            "lib": "__idf_servoconn",
+            "dir": "C:/medmentum/device/fw/esp/src/components/mqttlibs",
+            "lib": "__idf_mqttlibs",
+            "reqs": [ "esp_event", "tcp_transport" ],
+            "priv_reqs": [ "esp_timer", "http_parser", "esp_hw_support", "heap" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "C:/medmentum/device/fw/esp/src/components/mqttlibs/include" ]
+        },
+        "servotask": {
+            "alias": "idf::servotask",
+            "target": "___idf_servotask",
+            "prefix": "idf",
+            "dir": "C:/medmentum/device/fw/esp/src/components/servotask",
+            "lib": "__idf_servotask",
             "reqs": [ "driver" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include", "include/driver" ]
         },
-        "wificonn": {
-            "alias": "idf::wificonn",
-            "target": "___idf_wificonn",
+        "taskengine": {
+            "alias": "idf::taskengine",
+            "target": "___idf_taskengine",
             "prefix": "idf",
-            "dir": "C:/medmentum/device/fw/esp/src/components/wificonn",
-            "lib": "__idf_wificonn",
+            "dir": "C:/medmentum/device/fw/esp/src/components/taskengine",
+            "lib": "__idf_taskengine",
+            "reqs": [],
+            "priv_reqs": [ "captiveportal", "mqtt", "wifitask", "servotask" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
+        },
+        "wifitask": {
+            "alias": "idf::wifitask",
+            "target": "___idf_wifitask",
+            "prefix": "idf",
+            "dir": "C:/medmentum/device/fw/esp/src/components/wifitask",
+            "lib": "__idf_wifitask",
             "reqs": [],
             "priv_reqs": [ "captiveportal", "esp_wifi" ],
             "managed_reqs": [],

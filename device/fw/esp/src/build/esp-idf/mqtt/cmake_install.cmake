@@ -1,4 +1,4 @@
-# Install script for directory: C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mqtt
+# Install script for directory: C:/medmentum/device/fw/esp/src/components/mqtt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -75,6 +75,7 @@ C:/medmentum/device/fw/esp/src/build/esp-idf/espcoredump/libespcoredump.a
 C:/medmentum/device/fw/esp/src/build/esp-idf/wear_levelling/libwear_levelling.a
 C:/medmentum/device/fw/esp/src/build/esp-idf/fatfs/libfatfs.a
 C:/medmentum/device/fw/esp/src/build/esp-idf/json/libjson.a
+C:/medmentum/device/fw/esp/src/build/esp-idf/mqttlibs/libmqttlibs.a
 C:/medmentum/device/fw/esp/src/build/esp-idf/mqtt/libmqtt.a
 C:/medmentum/device/fw/esp/src/build/esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 C:/medmentum/device/fw/esp/src/build/esp-idf/perfmon/libperfmon.a
@@ -83,7 +84,8 @@ C:/medmentum/device/fw/esp/src/build/esp-idf/spiffs/libspiffs.a
 C:/medmentum/device/fw/esp/src/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 C:/medmentum/device/fw/esp/src/build/esp-idf/dns_server/libdns_server.a
 C:/medmentum/device/fw/esp/src/build/esp-idf/captiveportal/libcaptiveportal.a
-C:/medmentum/device/fw/esp/src/build/esp-idf/wificonn/libwificonn.a
-C:/medmentum/device/fw/esp/src/build/esp-idf/servoconn/libservoconn.a
+C:/medmentum/device/fw/esp/src/build/esp-idf/wifitask/libwifitask.a
+C:/medmentum/device/fw/esp/src/build/esp-idf/servotask/libservotask.a
+C:/medmentum/device/fw/esp/src/build/esp-idf/taskengine/libtaskengine.a
 C:/medmentum/device/fw/esp/src/build/esp-idf/main/libmain.a
 C:/medmentum/device/fw/esp/src/build/esp-idf/display/libdisplay.a

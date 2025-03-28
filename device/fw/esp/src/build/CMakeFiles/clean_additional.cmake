@@ -21,8 +21,6 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   "medmentum.bin"
   "medmentum.map"
   "project_elf_src_esp32.c"
-  "prvtkey.pem.S"
-  "servercert.pem.S"
   "x509_crt_bundle.S"
   )
 endif()

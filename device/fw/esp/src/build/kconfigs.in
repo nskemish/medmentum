@@ -56,7 +56,6 @@ source "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/ieee8021
 source "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/log/Kconfig"
 source "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/lwip/Kconfig"
 source "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mbedtls/Kconfig"
-source "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/mqtt/esp-mqtt/Kconfig"
 source "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/newlib/Kconfig"
 source "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/nvs_flash/Kconfig"
 source "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/nvs_sec_provider/Kconfig"
@@ -73,3 +72,4 @@ source "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/usb/Kcon
 source "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/vfs/Kconfig"
 source "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wear_levelling/Kconfig"
 source "C:/medmentum/device/fw/esp/tools/espidf/v5.4/esp-idf/components/wifi_provisioning/Kconfig"
+source "C:/medmentum/device/fw/esp/src/components/mqttlibs/Kconfig"

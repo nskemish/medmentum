@@ -1675,6 +1675,25 @@ rule C_STATIC_LIBRARY_LINKER____idf_json_
 #############################################
 # Rule for compiling C files.
 
+rule C_COMPILER____idf_mqttlibs_unscanned_
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ccache ${LAUNCHER}${CODE_CHECK}C:\Users\Administrator\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C static library.
+
+rule C_STATIC_LIBRARY_LINKER____idf_mqttlibs_
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\Administrator\.espressif\tools\cmake\3.30.2\bin\cmake.exe -E rm -f $TARGET_FILE && C:\Users\Administrator\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\Users\Administrator\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-ranlib.exe $TARGET_FILE && $POST_BUILD"
+  description = Linking C static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
 rule C_COMPILER____idf_mqtt_unscanned_
   depfile = $DEP_FILE
   deps = gcc
@@ -1837,7 +1856,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_captiveportal_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER____idf_wificonn_unscanned_
+rule C_COMPILER____idf_wifitask_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ccache ${LAUNCHER}${CODE_CHECK}C:\Users\Administrator\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -1847,7 +1866,7 @@ rule C_COMPILER____idf_wificonn_unscanned_
 #############################################
 # Rule for linking C static library.
 
-rule C_STATIC_LIBRARY_LINKER____idf_wificonn_
+rule C_STATIC_LIBRARY_LINKER____idf_wifitask_
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\Administrator\.espressif\tools\cmake\3.30.2\bin\cmake.exe -E rm -f $TARGET_FILE && C:\Users\Administrator\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\Users\Administrator\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-ranlib.exe $TARGET_FILE && $POST_BUILD"
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
@@ -1856,7 +1875,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_wificonn_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER____idf_servoconn_unscanned_
+rule C_COMPILER____idf_servotask_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ccache ${LAUNCHER}${CODE_CHECK}C:\Users\Administrator\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -1866,7 +1885,26 @@ rule C_COMPILER____idf_servoconn_unscanned_
 #############################################
 # Rule for linking C static library.
 
-rule C_STATIC_LIBRARY_LINKER____idf_servoconn_
+rule C_STATIC_LIBRARY_LINKER____idf_servotask_
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\Administrator\.espressif\tools\cmake\3.30.2\bin\cmake.exe -E rm -f $TARGET_FILE && C:\Users\Administrator\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\Users\Administrator\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-ranlib.exe $TARGET_FILE && $POST_BUILD"
+  description = Linking C static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER____idf_taskengine_unscanned_
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ccache ${LAUNCHER}${CODE_CHECK}C:\Users\Administrator\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C static library.
+
+rule C_STATIC_LIBRARY_LINKER____idf_taskengine_
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\Administrator\.espressif\tools\cmake\3.30.2\bin\cmake.exe -E rm -f $TARGET_FILE && C:\Users\Administrator\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\Users\Administrator\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-ranlib.exe $TARGET_FILE && $POST_BUILD"
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT

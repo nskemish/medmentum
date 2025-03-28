@@ -504,6 +504,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/medmentum/device/fw/esp/src/build/esp-idf/mqttlibs/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/medmentum/device/fw/esp/src/build/esp-idf/mqtt/cmake_install.cmake")
 endif()
 
@@ -559,12 +564,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/medmentum/device/fw/esp/src/build/esp-idf/wificonn/cmake_install.cmake")
+  include("C:/medmentum/device/fw/esp/src/build/esp-idf/wifitask/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/medmentum/device/fw/esp/src/build/esp-idf/servoconn/cmake_install.cmake")
+  include("C:/medmentum/device/fw/esp/src/build/esp-idf/servotask/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/medmentum/device/fw/esp/src/build/esp-idf/taskengine/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -12,12 +12,12 @@
 #include "esp_netif.h"
 #include "lwip/inet.h"
 #include "esp_http_server.h"
-#include "dns_server.h"
 #include <stdbool.h>
 #include <time.h>
 #include "captiveportal.h"
 #include <string.h>
 #include <stdio.h>
+#include "dns_server.h"
 
 static const char *TAG = "Captive Portal";
 static httpd_handle_t server = NULL;
